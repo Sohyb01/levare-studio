@@ -31,7 +31,7 @@ const ValueSection = () => {
           </p>
           {/* Background Graphic */}
           <Image
-            src="/graphics/Circle-brush.svg"
+            src="/graphics/Circle-Brush.svg"
             fill
             className="lg:block absolute top-0 left-0 pointer-events-none -z-[1]"
             alt=""
