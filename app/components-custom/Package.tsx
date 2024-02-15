@@ -19,7 +19,7 @@ const Package = ({
         <p className="text-sm font-bold text-neutral-400 uppercase">
           {packageData.packageName}
         </p>
-        <p className="text-neutral-800 text-4xl font-bold">
+        <p className="text-neutral-800 text-4xl font-bold header">
           {packageData.packagePrice}
           <span className="pl-2 text-sm">USD</span>
         </p>

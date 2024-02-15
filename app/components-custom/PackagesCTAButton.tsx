@@ -12,7 +12,7 @@ export function PackagesCTAButton() {
     <Dialog>
       <DialogTrigger asChild>
         <Button className="text-white bg-levare-red font-bold text-center rounded-full px-8 py-3 cursor-pointer">
-          This is me
+          I&apos;m Interested
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
