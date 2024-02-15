@@ -1,0 +1,4 @@
+/* Hero section gradient */
+.hero-bg-gradient {
+  background-image: linear-gradient(to bottom, #FFFBDB, #FFFFFF);
+}
