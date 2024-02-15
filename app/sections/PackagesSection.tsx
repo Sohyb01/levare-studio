@@ -52,7 +52,7 @@ const PackagesSection = () => {
       </div>
       {/* Background Graphic */}{" "}
       <Image
-        src="/graphics/Circle-brush-dark.svg"
+        src="/graphics/Circle-Brush-Dark.svg"
         fill
         className="absolute top-0 left-0 pointer-events-none "
         alt=""
