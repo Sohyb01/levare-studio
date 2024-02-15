@@ -40,7 +40,7 @@ const packagesData = [
 
 const PackagesSection = () => {
   return (
-    <section className="py-20 bg-neutral-800 relative">
+    <section id="packages" className="py-20 bg-neutral-800 relative">
       <div className="container flex flex-col items-center gap-8">
         <h3 className="text-white z-[1]">The Investment</h3>
         {/* Packages Container */}

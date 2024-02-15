@@ -4,7 +4,7 @@ import React from "react";
 const CTAButton = ({ buttonText }: { buttonText?: string }) => {
   return (
     <Link
-      href="/"
+      href="#packages"
       className="text-white bg-levare-red font-bold text-center rounded-full px-8 py-3 cursor-pointer"
     >
       {buttonText ? buttonText : "Get Started"}
