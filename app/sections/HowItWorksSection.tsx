@@ -7,7 +7,7 @@ const HowItWorksSection = () => {
     <section className="py-20">
       <div className="container flex flex-col text-center items-center gap-12 text-neutral-800">
         <h3>How it Works</h3>
-        <p className="text-xl">
+        <p className="text-lg text-neutral-600">
           The steps to take your business to the next level
         </p>
         {/* Steps Container */}
