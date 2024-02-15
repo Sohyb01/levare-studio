@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
  
-* {
+*, html {
   line-height: 144%;
   scroll-behavior: smooth;
 }

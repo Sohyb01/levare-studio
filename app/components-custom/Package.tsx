@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import CTAButton from "./CTAButton";
+import { PackagesCTAButton } from "./PackagesCTAButton";
 
 const Package = ({
   packageData,
@@ -39,7 +40,7 @@ const Package = ({
       </div>
       {/* CTA Buttons */}
       <div className="flex flex-col gap-4 text-center mt-auto">
-        <CTAButton />
+        <PackagesCTAButton />
         <p className="text-sm text-neutral-700">
           or <u>Book a call</u> first
         </p>

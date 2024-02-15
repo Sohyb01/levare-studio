@@ -4,7 +4,7 @@ import React from "react";
 const IsThisForMeSection = () => {
   return (
     <section className="py-20">
-      <div className="flex flex-col gap-8 text-start">
+      <div className="flex flex-col gap-8 text-start container">
         <p className="text-2xl text-neutral-800">Is this for me?</p>
         {/* Negatives Container */}
         <div className="flex flex-col gap-6 p-8 bg-neutral-800 rounded-[32px] text-lg">
