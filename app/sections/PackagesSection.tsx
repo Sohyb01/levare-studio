@@ -1,62 +1,84 @@
 import React from "react";
 import Package from "../components-custom/Package";
 import Image from "next/image";
+import CTAButton from "../components-custom/CTAButton";
 
 const packagesData = [
   {
-    packageName: "Website in a week",
-    packagePrice: "1200",
+    packageName: "QUICK LAUNCH (1-2 Weeks)",
+    packagePrice: "2600",
     packageBenefits: [
-      "Up to 3 page high-converting website",
-      "Basic Branding",
-      "Brand Guidelines",
-      "1 Month Post-Launch Support ",
+      "3-Page high-converting website",
+      "Messaging Strategy",
+      "Brand Strategy",
+      "Brand Design (Logo, Colors, Typography)",
+      "Essential SEO Optimizations",
+    ],
+    packageAbout: [
+      "A guided experience from start to finish, you'll leave with a ready online presence including a clean & elevated brand & action driven website",
+      "This is perfect for newer businesses who need foundational brand designs and a simple website to get started",
+      "If you are a more established business who needs an extensive brand strategy, full brand identity and a more expansive website, then our full service package may be better suited for you",
     ],
   },
   {
-    packageName: "FULL BRANDING & WEBSITE",
-    packagePrice: "7600",
+    packageName: "FULL SERVICE PACKAGE (3-4 Weeks)",
+    packagePrice: "8400",
     packageBenefits: [
-      "Up to 5 page high-converting website",
-      "Full Strategic Brand Identity",
-      "Brand Guidelines",
-      "6-Month Post-Launch Support",
+      "10-Page high-converting website",
+      "Messaging Strategy",
+      "Brand Strategy",
+      "Brand Design (Logo, Colors, Typography)",
+      "Custom Brand Collateral",
+      "Essential SEO Optimizations",
+      "Website Blog Features",
     ],
-  },
-  {
-    packageName: "FULL SERVICE SUBSCRIPTION",
-    packagePrice: "18600",
-    packageBenefits: [
-      "Unlimited Pages on Demand",
-      "Full Strategic Brand Identity",
-      "Customizable Templates for Social Media Posts",
-      "Full Brand Guidelines Document",
-      "1-Year Post-Launch Support",
-      "24-Hour Support Guarantee",
-      "Complete Brand Script (?)",
+    packageAbout: [
+      "A comprehensive experience rooted in strategy and designed to give you everything you need to set your business apart as an industry leader",
+      "Starting with strategy we'll carry out an in depth audience & competitor analysis to inform all our design decisions",
+      "We'll then craft you a standout & action driven online presence driven by your long term strategy and ambitions for your business",
     ],
   },
 ];
 
 const PackagesSection = () => {
   return (
-    <section id="packages" className="py-20 bg-neutral-800 relative">
+    <section
+      id="packages"
+      className="py-20 bg-neutral-800 relative packages-bg"
+    >
       <div className="container flex flex-col items-center gap-8">
-        <h3 className="text-white z-[1]">The Investment</h3>
+        <h2 className="text-white section-header">The Investment</h2>
         {/* Packages Container */}
         <div className="flex flex-wrap gap-8 items-center justify-center lg:grid lg:grid-cols-3 max-w-screen-md lg:max-w-none">
           {packagesData.map((packageData, idx) => (
             <Package packageData={packageData} key={idx} />
           ))}
+          {/* Custom Package */}
+          <div className="rounded-[32px] flex flex-col text-start p-8 bg-white gap-8 w-full max-w-[332px] lg:max-w-none">
+            {/* Name and Price */}
+            <div className="flex flex-col gap-2">
+              <p className="text-sm font-bold text-neutral-400 uppercase">
+                CUSTOM PACKAGE
+              </p>
+              <p className="text-neutral-800 text-4xl font-bold header">
+                Custom
+              </p>
+            </div>
+            <p className="mt-[-16px]">
+              Unsure? Get a custom quote and project that matches your budget
+              and goals
+              <br />
+              <br />
+              After applying, we will get in touch with you and discuss the
+              details of your project
+            </p>
+            {/* CTA Buttons */}
+            <div className="flex flex-col gap-4 text-center mt-auto">
+              <CTAButton />
+            </div>
+          </div>
         </div>
       </div>
-      {/* Background Graphic */}{" "}
-      <Image
-        src="/graphics/Circle-Brush-Dark.svg"
-        fill
-        className="absolute top-0 left-0 pointer-events-none "
-        alt=""
-      />
     </section>
   );
 };

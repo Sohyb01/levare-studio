@@ -7,9 +7,17 @@
   scroll-behavior: smooth;
 }
 
+.container{
+  @apply md:max-w-[680px] lg:max-w-[1120px] mx-auto
+}
+
 /* default section padding */
 section, .section-padding{
   @apply px-4 md:px-8 lg:px-20
+}
+
+.button-2{
+  @apply text-neutral-900 bg-white px-8 py-3 text-center hover:bg-neutral-100 rounded-full
 }
 
 @layer base {

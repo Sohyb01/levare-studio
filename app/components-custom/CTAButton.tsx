@@ -1,13 +1,19 @@
 import Link from "next/link";
 import React from "react";
 
-const CTAButton = ({ buttonText }: { buttonText?: string }) => {
+const CTAButton = ({
+  buttonText,
+  classname,
+}: {
+  buttonText?: string;
+  classname?: string;
+}) => {
   return (
     <Link
-      href="#packages"
-      className="text-white bg-levare-red font-bold text-center rounded-full px-8 py-3 cursor-pointer"
+      href="/contact"
+      className={`text-white bg-levare-red text-center rounded-full px-8 py-3 cursor-pointer ${classname}`}
     >
-      {buttonText ? buttonText : "Get Started"}
+      {buttonText ? buttonText : "Apply Now"}
     </Link>
   );
 };

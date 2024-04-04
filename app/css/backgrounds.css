@@ -1,4 +1,20 @@
 /* Hero section gradient */
-.hero-bg-gradient {
-  background-image: linear-gradient(to bottom, #FFFBDB, #FFFFFF);
+.hero-bg{
+  background-image: url(../../public/optimized/levare-studio.png);
+  @apply bg-cover bg-center
+}
+
+.testimonial-bg-1{
+  background-image: url(../../public/optimized/levare-testimonial.png);
+  @apply bg-cover bg-center
+}
+
+.testimonial-bg-2{
+  background-image: url(../../public/optimized/levare-clients.png);
+  @apply bg-cover bg-center
+}
+
+.packages-bg{
+  background-image: url(../../public/optimized/levare-studio-2.png);
+  @apply bg-cover bg-center
 }

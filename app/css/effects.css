@@ -1,0 +1,19 @@
+/* Blur and Unblur infinite animation */
+@keyframes blur-unblur {
+  0%, 20% {
+    filter: blur(0px);
+  }
+  10% {
+    filter: blur(2px);
+  }
+}
+
+.blur-animation {
+  animation: blur-unblur 4s infinite ease-in-out
+}
+
+/* red shadow, black border, cartoony look */
+.border-and-shadow{
+  box-shadow: 12px 12px 0px 0px rgba(255, 0, 46, 0.5);
+@apply border-[2px] border-solid border-black 
+}

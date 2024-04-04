@@ -1,26 +1,8 @@
-/* Headers Font Variable for Basment Grotesque */
-h1,h2,h3,h4,h5{
+.header, .section-header{
 font-family: var(--header);
- @apply leading-[120%] text-neutral-800
+@apply leading-[120%]
 }
 
-h1{
-    @apply text-6xl
-}
-h2{
-    @apply text-5xl
-}
-h3{
-    @apply text-4xl
-}
-h4{
-    @apply text-3xl
-}
-h5{
+.section-header{
     @apply text-2xl
-}
-
-.header{
-font-family: var(--header);
-
 }

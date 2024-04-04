@@ -6,6 +6,8 @@ import ClientShowcaseSection from "./sections/ClientShowcaseSection";
 import IsThisForMeSection from "./sections/IsThisForMeSection";
 import PackagesSection from "./sections/PackagesSection";
 import SalesNavbar from "./components-custom/SalesNavbar";
+import AboutSection from "./sections/AboutSection";
+import FAQSection from "./sections/FAQSection";
 
 export default function Home() {
   return (
@@ -13,10 +15,12 @@ export default function Home() {
       <HeroSection />
       <TestimonialSection1 />
       <ValueSection />
-      <HowItWorksSection />
-      <ClientShowcaseSection />
       <PackagesSection />
+      <ClientShowcaseSection />
+      <HowItWorksSection />
       <IsThisForMeSection />
+      <AboutSection />
+      <FAQSection />
     </main>
   );
 }
