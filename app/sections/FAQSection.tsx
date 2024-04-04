@@ -29,7 +29,7 @@ const FAQSection = () => {
             <AccordionTrigger className="text-white text-md font-normal p-0 text-start">
               What can I expect after applying and filling out the form?
             </AccordionTrigger>
-            <AccordionContent className="text-normal-200 text-sm pt-4">
+            <AccordionContent className="text-neutral-200 text-base pt-4">
               We will get back to you within 24 hours informing you of whether
               we think you are a good match who we can get great results for, or
               if we don’t think we are the right fit for you
@@ -42,7 +42,7 @@ const FAQSection = () => {
             <AccordionTrigger className="text-white text-md font-normal p-0 text-start">
               What happens if we decide to work together?
             </AccordionTrigger>
-            <AccordionContent className="text-normal-200 text-sm pt-4">
+            <AccordionContent className="text-neutral-200 text-base pt-4">
               We will begin the onboarding process for you, begin understanding
               your business and its requirements further, and then carrying out
               the strategies and systems to make sure you reach your goals
@@ -56,7 +56,7 @@ const FAQSection = () => {
               How do you manage communication between you and clients you work
               with?
             </AccordionTrigger>
-            <AccordionContent className="text-normal-200 text-sm pt-4">
+            <AccordionContent className="text-neutral-200 text-base pt-4">
               We value consistent and clear communication as it allows us to
               deliver the best results to our clients.
               <br />
@@ -74,7 +74,7 @@ const FAQSection = () => {
             <AccordionTrigger className="text-white text-md font-normal p-0 text-start">
               What types of businesses can you bring the best results for?
             </AccordionTrigger>
-            <AccordionContent className="text-normal-200 text-sm pt-4">
+            <AccordionContent className="text-neutral-200 text-base pt-4">
               We focus primarily on businesses who have been in business for at
               least a few months and have one or two solidified offers, and also
               who preferably already have an audience or a plan to market
@@ -88,7 +88,7 @@ const FAQSection = () => {
             <AccordionTrigger className="text-white text-md font-normal p-0 text-start">
               Do you provide marketing services?
             </AccordionTrigger>
-            <AccordionContent className="text-normal-200 text-sm pt-4">
+            <AccordionContent className="text-neutral-200 text-base pt-4">
               We do not provide marketing services, we focus on creating an
               effective, high conversion machine for our clients&apos;
               businesses so that they can confidently market themselves or push
@@ -103,7 +103,7 @@ const FAQSection = () => {
             <AccordionTrigger className="text-white text-md font-normal p-0 text-start">
               Do you provide SEO services?
             </AccordionTrigger>
-            <AccordionContent className="text-normal-200 text-sm pt-4">
+            <AccordionContent className="text-neutral-200 text-base pt-4">
               SEO essentials are included in our packages (image optimization,
               website speed, link optimization…) , however we do not provide
               advanced SEO to help our client&apos;s businesses rank on first
@@ -122,7 +122,7 @@ const FAQSection = () => {
             <AccordionTrigger className="text-white text-md font-normal p-0 text-start">
               Do you provide ongoing website maintenance?
             </AccordionTrigger>
-            <AccordionContent className="text-normal-200 text-sm pt-4">
+            <AccordionContent className="text-neutral-200 text-base pt-4">
               Yes, our ongoing maintenance rate is 100 USD / Month for up to 2
               hours of maintenance. You can use this to change any information,
               text, or images on your website and you can inform us of the

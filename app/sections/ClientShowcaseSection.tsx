@@ -5,13 +5,13 @@ import React from "react";
 const ClientShowcaseSection = () => {
   return (
     <section className="py-20">
-      <div className="lg:container flex flex-col gap-8 text-center">
+      <div className="md:container flex flex-col gap-8 text-center">
         <h2 className="section-header">Client Showcase</h2>
         <p className="text-lg text-neutral-600">
           A few examples of what we can do
         </p>
 
-        <div className="grid grid-cols-1 grid-rows-6 md:grid-cols-2 md:grid-rows-3 gap-2 lg:gap-2">
+        <div className="grid grid-cols-1 grid-rows-6 lg:grid-rows-3 lg:grid-cols-2 gap-2 lg:gap-2">
           {/* The Brief Text */}
           <div className="flex flex-col text-start gap-8 p-8 testimonial-bg-2 rounded-[32px]">
             <p className="text-xl text-white">The Brief</p>

@@ -16,7 +16,7 @@ const Package = ({
   };
 }) => {
   return (
-    <div className="rounded-[32px] flex flex-col text-start p-8 bg-white gap-8 w-full max-w-[332px] lg:max-w-none h-full z-[1]">
+    <div className="rounded-[32px] flex flex-col text-start p-8 bg-white gap-8 w-full max-w-[332px] md:max-w-[324px] lg:max-w-none h-full z-[1]">
       {/* Name and Price */}
       <div className="flex flex-col gap-2">
         <p className="text-sm font-bold text-neutral-400 uppercase">
