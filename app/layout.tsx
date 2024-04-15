@@ -4,6 +4,7 @@ import "./globals.css";
 import "./css/texts.css";
 import "./css/backgrounds.css";
 import "./css/effects.css";
+import "react-toastify/dist/ReactToastify.css";
 import { Manrope } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 
@@ -115,6 +116,7 @@ export default function RootLayout({
         {/* <SalesNavbar /> */}
         {children}
       </body>
+      <ToastContainer />
     </html>
   );
 }
