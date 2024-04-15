@@ -12,6 +12,7 @@ import FAQSection from "./sections/FAQSection";
 export default function Home() {
   return (
     <main>
+      <SalesNavbar />
       <HeroSection />
       <TestimonialSection1 />
       <ValueSection />
