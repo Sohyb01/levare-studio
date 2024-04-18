@@ -3,7 +3,7 @@
 import { TformSchema, formSchema } from "@/lib/types";
 import { supabaseAdmin } from "@/lib/supabase";
 
-export const addLeadToDB = async (data: TformSchema) => {
+export const addFormApplicationToDB = async (data: TformSchema) => {
   // Validate Data server side
   const validData = formSchema.safeParse(data);
 

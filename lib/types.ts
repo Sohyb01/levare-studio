@@ -15,3 +15,11 @@ export const formSchema = z.object({
 });
 
 export type TformSchema = z.infer<typeof formSchema>;
+
+export const leadMagnetEmailFormSchema = z.object({
+  email: z.string().email().min(1, "Required"),
+});
+
+export type TleadMagnetEmailFormSchema = z.infer<
+  typeof leadMagnetEmailFormSchema
+>;

@@ -2,19 +2,19 @@
 
 import { supabaseAdmin } from "@/lib/supabase";
 
-const collectEmailIntoDatabase = async ({
-  emailAddress,
-  businessLink,
-}: {
-  emailAddress: string;
-  businessLink: string;
-}) => {
+const collectEmailIntoDatabase = async ({ email }: { email: string }) => {
   // Send API Request to Supabase
-  const response = await supabaseAdmin
-    .from("collected_email_leads") // Your table name
+  const res = await supabaseAdmin
+    .from("leadMagnetCollectedEmails") // Your table name
     .insert([
-      { email_address: emailAddress, business_link: businessLink }, // Data to insert
+      { email: email }, // Data to insert
     ]);
-  return response.statusText;
+
+  if (res.error) {
+    console.log(res.error);
+    return { error: "An error has occurred." };
+  } else {
+    return { success: "Your application was submitted succesfully!" };
+  }
 };
 export default collectEmailIntoDatabase;

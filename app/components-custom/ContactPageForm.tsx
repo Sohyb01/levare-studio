@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { TformSchema, formSchema } from "@/lib/types";
 import { ToastContainer, toast } from "react-toastify";
-import { addLeadToDB } from "../actions/addLeadToDB";
+import { addFormApplicationToDB } from "../actions/addFormApplicationToDB";
 
 const ContactPageForm = () => {
   const {
@@ -21,7 +21,7 @@ const ContactPageForm = () => {
     // handle form submission
     console.log(data);
 
-    const res = await addLeadToDB(data).then((res) => {
+    const res = await addFormApplicationToDB(data).then((res) => {
       return res;
     });
 

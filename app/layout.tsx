@@ -115,8 +115,8 @@ export default function RootLayout({
       <body className={`${manrope.className} ${BasementGrotesque.variable}`}>
         {/* <SalesNavbar /> */}
         {children}
+        <ToastContainer />
       </body>
-      <ToastContainer />
     </html>
   );
 }
