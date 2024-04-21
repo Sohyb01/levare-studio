@@ -46,7 +46,7 @@ const FreebiesPageFormSection = () => {
               </div>
               {/* Download button */}
               <Link
-                href="/freebies"
+                href="/files/Website-Checklist.pdf"
                 className="flex items-center gap-2 py-3 pl-4 pr-6 text-center text-white bg-neutral-800 w-fit font-bold"
               >
                 <Image
