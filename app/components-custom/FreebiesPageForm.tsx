@@ -44,6 +44,7 @@ const FreebiesPageForm = () => {
       <div className="levare-input-and-label-container">
         Your Best Email
         <input
+          placeholder="Write here..."
           autoComplete="off"
           type="text"
           {...register("email", {

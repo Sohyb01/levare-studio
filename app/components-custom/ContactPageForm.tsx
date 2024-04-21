@@ -45,6 +45,7 @@ const ContactPageForm = () => {
       <div className="levare-input-and-label-container">
         Full name
         <input
+          placeholder="Write here..."
           autoComplete="off"
           type="text"
           {...register("fullName", {
@@ -59,6 +60,7 @@ const ContactPageForm = () => {
       <div className="levare-input-and-label-container">
         Your Best Email
         <input
+          placeholder="Write here..."
           autoComplete="off"
           type="text"
           {...register("email", {
@@ -73,6 +75,7 @@ const ContactPageForm = () => {
       <div className="levare-input-and-label-container">
         Current Website URL
         <input
+          placeholder="Write here..."
           autoComplete="off"
           type="text"
           {...register("websiteUrl", {
@@ -87,6 +90,7 @@ const ContactPageForm = () => {
       <div className="levare-input-and-label-container">
         What is your story, what does your business do and how did you get here?
         <input
+          placeholder="Write here..."
           autoComplete="off"
           type="text"
           {...register("storyQuestion", {
@@ -101,6 +105,7 @@ const ContactPageForm = () => {
       <div className="levare-input-and-label-container">
         Which of our services are you interested in?
         <input
+          placeholder="Write here..."
           autoComplete="off"
           type="text"
           {...register("servicesQuestion", {
@@ -116,6 +121,7 @@ const ContactPageForm = () => {
         Tell us about your project? What problems are you hoping to solve by
         working with us and what does sucess look like for your business?
         <input
+          placeholder="Write here..."
           autoComplete="off"
           type="text"
           {...register("projectQuestion", {
