@@ -1,9 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import CTAButton from "./CTAButton";
-import { PackagesCTAButton } from "./PackagesCTAButton";
-import Link from "next/link";
-import { calendlyLink } from "../data/links";
 
 const Package = ({
   packageData,
