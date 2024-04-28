@@ -1,9 +1,13 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import FreebiesPageForm from "../components-custom/FreebiesPageForm";
 import Link from "next/link";
 import Image from "next/image";
 
 const FreebiesPageFormSection = () => {
+  const [userHasSubmittedEmail, setUserHasSubmittedEmail] = useState(false);
+
   return (
     <section className="py-20 bg-neutral-800 relative packages-bg">
       <div className="container flex flex-col gap-[120px]">
@@ -13,7 +17,9 @@ const FreebiesPageFormSection = () => {
             Enter your email once, receive lifetime access to all current and
             future free resources
           </p>
-          <FreebiesPageForm />
+          <FreebiesPageForm
+            setUserHasSubmittedEmail={setUserHasSubmittedEmail}
+          />
         </div>
         {/* Second: text and grid of resources */}
         <div className="flex flex-col gap-12 items-center">
@@ -46,8 +52,12 @@ const FreebiesPageFormSection = () => {
               </div>
               {/* Download button */}
               <Link
-                href="/files/Website-Checklist.pdf"
-                className="flex items-center gap-2 py-3 pl-4 pr-6 text-center text-white bg-neutral-800 w-fit font-bold"
+                href={
+                  userHasSubmittedEmail ? `/files/Website-Checklist.pdf` : `#`
+                }
+                className={`flex items-center gap-2 py-3 pl-4 pr-6 text-center bg-neutral-800 w-fit font-bold text-sm ${
+                  userHasSubmittedEmail ? `text-white` : `text-neutral-400`
+                }`}
               >
                 <Image
                   src="/icons/download.svg"
@@ -55,7 +65,9 @@ const FreebiesPageFormSection = () => {
                   width={24}
                   alt="Download"
                 />
-                Download
+                {userHasSubmittedEmail
+                  ? `Download`
+                  : `Submit Your Email to Download`}
               </Link>
             </div>
             <div className="freebie-container">
@@ -85,7 +97,7 @@ const FreebiesPageFormSection = () => {
               {/* Download button */}
               <div
                 // href="/freebies"
-                className="flex items-center gap-2 py-3 pl-4 pr-4 text-center text-neutral-400 bg-neutral-800 w-fit font-bold"
+                className="flex items-center gap-2 py-3 pl-4 pr-4 text-center text-neutral-400 bg-neutral-800 w-fit font-bold text-sm"
               >
                 {/* <Image
                   src="/icons/download.svg"

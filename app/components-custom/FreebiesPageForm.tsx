@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { Dispatch, SetStateAction, useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import {
@@ -10,7 +10,11 @@ import {
 import { toast } from "react-toastify";
 import collectEmailIntoDatabase from "../actions/collectEmailIntoDatabase";
 
-const FreebiesPageForm = () => {
+const FreebiesPageForm = ({
+  setUserHasSubmittedEmail,
+}: {
+  setUserHasSubmittedEmail: Dispatch<SetStateAction<boolean>>;
+}) => {
   const {
     register,
     handleSubmit,
@@ -22,7 +26,6 @@ const FreebiesPageForm = () => {
 
   const onSubmit = async (data: TleadMagnetEmailFormSchema) => {
     // handle form submission
-    console.log(data);
 
     const res = await collectEmailIntoDatabase(data).then((res) => {
       return res;
@@ -31,7 +34,8 @@ const FreebiesPageForm = () => {
     if (res.error) {
       toast.error("There was an error submitting your email");
     } else {
-      toast.success("Enjoy your freebies!");
+      toast.success("Success! Enjoy your freebies!");
+      setUserHasSubmittedEmail(true);
       reset();
     }
   };
