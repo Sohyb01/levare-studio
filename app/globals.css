@@ -21,7 +21,7 @@ section, .section-padding{
 }
 
 .levare-input-and-label-container{
-@apply flex flex-col items-start text-start gap-3 w-full text-sm text-neutral-300
+@apply flex flex-col items-start text-start gap-3 w-full text-neutral-300
 }
 
 .levare-form-input{
@@ -30,5 +30,5 @@ section, .section-padding{
   
 .freebie-container{
   box-shadow: 12px 12px 0px 0px rgba(255, 0, 46, 0.5);
-  @apply border-[2px] border-solid border-black bg-white relative py-8 px-4 md:pl-[112px] text-start flex flex-col gap-8 w-full max-w-[464px]
+  @apply border-[2px] border-solid border-black bg-white relative py-8 px-4 md:pl-[112px] text-start flex flex-col gap-8 w-full max-w-[464px] mx-auto
 }

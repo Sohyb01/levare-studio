@@ -10,8 +10,8 @@ const FreebiesPageFormSection = () => {
         {/* First row, contains text and form */}
         <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-between gap-8">
           <p className="text-lg text-neutral-300 w-full lg:max-w-[352px]">
-            Enter your name and email once, receive lifetime access to all
-            current and future free resources
+            Enter your email once, receive lifetime access to all current and
+            future free resources
           </p>
           <FreebiesPageForm />
         </div>
@@ -20,10 +20,10 @@ const FreebiesPageFormSection = () => {
           <h4 className="text-2xl w-full text-white text-center header">
             Available Resources
           </h4>
-          <div className="grid grid-cols-1 lg:flex lg:flex-row lg:justify-between w-full">
+          <div className="grid grid-cols-1 gap-8 lg:flex lg:flex-row lg:justify-between w-full">
             <div className="freebie-container">
               {/* Image of PDF */}
-              <div className="absolute aspect-[595/842] top-5 left-[-80px] w-[160px] shadow-lg rotate-3">
+              <div className="absolute aspect-[595/842] bottom-6 md:bottom-auto right-2 md:right-auto md:top-5 md:left-[-80px] w-[65px] md:w-[160px] shadow-lg rotate-3">
                 <Image
                   src="/optimized/website-checklist-cover.png"
                   fill
@@ -60,9 +60,9 @@ const FreebiesPageFormSection = () => {
             </div>
             <div className="freebie-container">
               {/* Image of PDF */}
-              <div className="absolute aspect-[595/842] top-5 left-[-80px] w-[160px] shadow-lg rotate-3">
+              <div className="absolute aspect-[595/842] bottom-6 md:bottom-auto right-2 md:right-auto md:top-5 md:left-[-80px] w-[65px] md:w-[160px] shadow-lg rotate-3">
                 <Image
-                  src="/optimized/levare-studio-2.png"
+                  src="/optimized/unknown.png"
                   fill
                   alt="Checklist for an Effective Website"
                   className="object-cover object-center"
@@ -85,14 +85,14 @@ const FreebiesPageFormSection = () => {
               {/* Download button */}
               <div
                 // href="/freebies"
-                className="flex items-center gap-2 py-3 pl-4 pr-6 text-center text-white bg-neutral-800 w-fit font-bold"
+                className="flex items-center gap-2 py-3 pl-4 pr-4 text-center text-neutral-400 bg-neutral-800 w-fit font-bold"
               >
-                <Image
+                {/* <Image
                   src="/icons/download.svg"
                   height={24}
                   width={24}
                   alt="Download"
-                />
+                /> */}
                 Coming Soon!
               </div>
             </div>

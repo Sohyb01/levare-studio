@@ -39,7 +39,7 @@ const FreebiesPageForm = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="w-full flex flex-col gap-12 lg:max-w-[544px]"
+      className="w-full flex flex-col gap-8 lg:max-w-[544px]"
     >
       <div className="levare-input-and-label-container">
         Your Best Email
@@ -61,7 +61,7 @@ const FreebiesPageForm = () => {
         className={`text-white bg-levare-red text-center rounded-full px-8 py-3 disabled:bg-orange-800 w-fit`}
         type="submit"
       >
-        -&gt; Submit
+        Submit
       </button>
     </form>
   );

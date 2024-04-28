@@ -4,7 +4,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { TformSchema, formSchema } from "@/lib/types";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import { addFormApplicationToDB } from "../actions/addFormApplicationToDB";
 
 const ContactPageForm = () => {
@@ -89,14 +89,13 @@ const ContactPageForm = () => {
       </div>
       <div className="levare-input-and-label-container">
         What is your story, what does your business do and how did you get here?
-        <input
+        <textarea
           placeholder="Write here..."
           autoComplete="off"
-          type="text"
           {...register("storyQuestion", {
             required: "Required",
           })}
-          className="levare-form-input"
+          className="levare-form-input h-[200px]"
         />
         {errors.storyQuestion && (
           <p className="text-red-500">{`${errors.storyQuestion.message}`}</p>
@@ -120,14 +119,13 @@ const ContactPageForm = () => {
       <div className="levare-input-and-label-container">
         Tell us about your project? What problems are you hoping to solve by
         working with us and what does sucess look like for your business?
-        <input
+        <textarea
           placeholder="Write here..."
           autoComplete="off"
-          type="text"
           {...register("projectQuestion", {
             required: "Required",
           })}
-          className="levare-form-input"
+          className="levare-form-input h-[200px]"
         />
         {errors.projectQuestion && (
           <p className="text-red-500">{`${errors.projectQuestion.message}`}</p>

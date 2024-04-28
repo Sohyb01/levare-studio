@@ -2,6 +2,7 @@
 
 import { TformSchema, formSchema } from "@/lib/types";
 import { supabaseAdmin } from "@/lib/supabase";
+import { Resend } from "resend";
 
 export const addFormApplicationToDB = async (data: TformSchema) => {
   // Validate Data server side
@@ -30,27 +31,26 @@ export const addFormApplicationToDB = async (data: TformSchema) => {
     console.log(res.error);
     return { error: "An error has occurred." };
   } else {
+    const resend = new Resend(`${process.env.RESEND_API_KEY}`);
+
+    const emailContent = `
+    New Application for Levare Studio!
+    Full Name: ${data.fullName} \n
+    Email: ${data.email} \n
+    Website Url: ${data.websiteUrl ? data.websiteUrl : "-"} \n
+    Their Story: ${data.storyQuestion} \n
+    Services they are interested in: ${data.servicesQuestion} \n
+    Project goals: ${data.projectQuestion};
+    `;
+
+    // Send email to me
+    await resend.emails.send({
+      from: "onboarding@levarestudio.com",
+      to: "sohyb155@gmail.com",
+      subject: "Contact Form Application",
+      text: emailContent,
+    });
+
     return { success: "Your application was submitted succesfully!" };
   }
-
-  // const resend = new Resend(`${process.env.RESEND_API_KEY}`);
-
-  // const res = await resend.emails
-  //   .send({
-  //     from: "info@pes-edu.com",
-  //     // to: "sohyb0155@gmail.com",
-  //     to: "Mostafa.261.mk@gmail.com",
-  //     subject: "Contact Form Application",
-  //     text: emailContent,
-  //   })
-  //   .then((res) => {
-  //     if (res.error) {
-  //       console.log(res.error);
-  //       return { error: res.error.message };
-  //     } else {
-  //       return { success: "Email sent successfully!" };
-  //     }
-  //   });
-
-  // return res;
 };
