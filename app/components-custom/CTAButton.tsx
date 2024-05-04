@@ -13,7 +13,7 @@ const CTAButton = ({
       href="/contact"
       className={`text-white bg-levare-red text-center rounded-full px-8 py-3 cursor-pointer ${classname}`}
     >
-      {buttonText ? buttonText : "Apply Now"}
+      {buttonText ? buttonText : "Grow my Business"}
     </Link>
   );
 };
