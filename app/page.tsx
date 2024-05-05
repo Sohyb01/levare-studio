@@ -17,7 +17,7 @@ export default function Home() {
       <TestimonialSection1 />
       <ValueSection />
       <PackagesSection />
-      <ClientShowcaseSection />
+      {/* <ClientShowcaseSection /> */}
       <HowItWorksSection />
       <IsThisForMeSection />
       <AboutSection />
