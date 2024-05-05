@@ -18,9 +18,9 @@ export default function Home() {
       <ValueSection />
       <PackagesSection />
       {/* <ClientShowcaseSection /> */}
+      <AboutSection />
       <HowItWorksSection />
       <IsThisForMeSection />
-      <AboutSection />
       <FAQSection />
     </main>
   );
