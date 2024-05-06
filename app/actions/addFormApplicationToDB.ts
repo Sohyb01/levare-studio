@@ -44,12 +44,14 @@ export const addFormApplicationToDB = async (data: TformSchema) => {
     `;
 
     // Send email to me
-    await resend.emails.send({
-      from: "onboarding@levarestudio.com",
-      to: "sohyb155@gmail.com",
-      subject: "Contact Form Application",
-      text: emailContent,
-    });
+    // const emailRes = await resend.emails.send({
+    //   from: "onboarding@levarestudio.com",
+    //   to: "sohyb0155@gmail.com",
+    //   subject: "Contact Form Application",
+    //   text: emailContent,
+    // });
+
+    // console.log("emailres: ", emailRes);
 
     return { success: "Your application was submitted succesfully!" };
   }

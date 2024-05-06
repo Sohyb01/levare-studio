@@ -44,8 +44,9 @@ const FAQSection = () => {
             </AccordionTrigger>
             <AccordionContent className="text-neutral-200 text-base pt-4">
               We will begin the onboarding process for you, begin understanding
-              your business and its requirements further, and then carrying out
-              the strategies and systems to make sure you reach your goals
+              your business and its requirements further, and then start
+              carrying out the strategies and systems to make sure you reach
+              your goals
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
@@ -89,11 +90,11 @@ const FAQSection = () => {
               Do you provide marketing services?
             </AccordionTrigger>
             <AccordionContent className="text-neutral-200 text-base pt-4">
-              We do not provide marketing services, we focus on creating an
-              effective, high conversion machine for our clients&apos;
-              businesses so that they can confidently market themselves or push
-              their existing audience towards profitable sales pages and
-              websites
+              We do not provide marketing services such as advertising. We focus
+              on creating an effective, high conversion machine for our
+              clients&apos; businesses so that they can confidently market
+              themselves or push their existing audience towards profitable
+              sales pages and websites
             </AccordionContent>
           </AccordionItem>
           <AccordionItem
