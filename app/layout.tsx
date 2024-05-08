@@ -7,6 +7,7 @@ import "./css/effects.css";
 import "react-toastify/dist/ReactToastify.css";
 import { Manrope } from "next/font/google";
 import { ToastContainer } from "react-toastify";
+import { Analytics } from "@vercel/analytics/react";
 
 const BasementGrotesque = localFont({
   src: "./fonts/BasementGrotesque-Black.otf",
@@ -115,6 +116,7 @@ export default function RootLayout({
       <body className={`${manrope.className} ${BasementGrotesque.variable}`}>
         {/* <SalesNavbar /> */}
         {children}
+        <Analytics />
         <ToastContainer />
       </body>
     </html>
