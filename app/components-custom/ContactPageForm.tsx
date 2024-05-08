@@ -9,6 +9,7 @@ import { addFormApplicationToDB } from "../actions/addFormApplicationToDB";
 
 const ContactPageForm = () => {
   const {
+    watch,
     register,
     handleSubmit,
     formState: { errors, isSubmitting },
@@ -37,13 +38,21 @@ const ContactPageForm = () => {
     }
   };
 
+  // Char count trackers
+  const storyInput = watch("storyQuestion");
+  const servicesInput = watch("servicesQuestion");
+  const projectInput = watch("projectQuestion");
+
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
       className="w-full flex flex-col gap-12 lg:max-w-[544px]"
     >
       <div className="levare-input-and-label-container">
-        Full name
+        <p>
+          {" "}
+          Full name <span className="text-levare-red">*</span>
+        </p>
         <input
           placeholder="Write here..."
           autoComplete="off"
@@ -58,7 +67,10 @@ const ContactPageForm = () => {
         )}
       </div>
       <div className="levare-input-and-label-container">
-        Your Best Email
+        <p>
+          {" "}
+          Your Best Email <span className="text-levare-red">*</span>
+        </p>
         <input
           placeholder="Write here..."
           autoComplete="off"
@@ -72,6 +84,7 @@ const ContactPageForm = () => {
           <p className="text-red-500">{`${errors.email.message}`}</p>
         )}
       </div>
+      {/* Website URL */}
       <div className="levare-input-and-label-container">
         Current Website URL
         <input
@@ -87,22 +100,38 @@ const ContactPageForm = () => {
           <p className="text-red-500">{`${errors.websiteUrl.message}`}</p>
         )}
       </div>
-      <div className="levare-input-and-label-container">
-        What is your story, what does your business do and how did you get here?
+      <div className="levare-input-and-label-container relative">
+        <p>
+          Tell us your story, what does your business do and how did you get
+          here? <span className="text-levare-red">*</span>
+        </p>
         <textarea
           placeholder="Write here..."
           autoComplete="off"
           {...register("storyQuestion", {
             required: "Required",
           })}
-          className="levare-form-input h-[200px]"
+          className="levare-form-input h-[200px] border-[1px] border-solid border-neutral-700 p-4"
         />
+        {/* Character counter */}
+        {storyInput && storyInput.length && (
+          <div
+            className={`absolute w-full bottom-1 text-sm left-1.5  ${
+              storyInput.length > 1000 ? "text-red-500" : "text-neutral-500"
+            }`}
+          >
+            {storyInput.length}/1000
+          </div>
+        )}
         {errors.storyQuestion && (
           <p className="text-red-500">{`${errors.storyQuestion.message}`}</p>
         )}
       </div>
       <div className="levare-input-and-label-container">
-        Which of our services are you interested in?
+        <p>
+          Which of our services are you interested in?{" "}
+          <span className="text-levare-red">*</span>
+        </p>
         <input
           placeholder="Write here..."
           autoComplete="off"
@@ -116,17 +145,29 @@ const ContactPageForm = () => {
           <p className="text-red-500">{`${errors.servicesQuestion.message}`}</p>
         )}
       </div>
-      <div className="levare-input-and-label-container">
-        Tell us about your project? What problems are you hoping to solve by
-        working with us and what does sucess look like for your business?
+      <div className="levare-input-and-label-container relative">
+        <p>
+          Tell us about your project? What problems are you hoping to solve by
+          working with us and what does sucess look like for your business?
+          <span className="text-levare-red">*</span>
+        </p>
         <textarea
           placeholder="Write here..."
           autoComplete="off"
           {...register("projectQuestion", {
             required: "Required",
           })}
-          className="levare-form-input h-[200px]"
+          className="levare-form-input h-[200px] border-[1px] border-solid border-neutral-700 p-4"
         />
+        {projectInput && projectInput.length && (
+          <div
+            className={`absolute w-full bottom-1 text-sm left-1.5  ${
+              projectInput.length > 1000 ? "text-red-500" : "text-neutral-500"
+            }`}
+          >
+            {projectInput.length}/1000
+          </div>
+        )}
         {errors.projectQuestion && (
           <p className="text-red-500">{`${errors.projectQuestion.message}`}</p>
         )}

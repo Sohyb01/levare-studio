@@ -25,7 +25,7 @@ section, .section-padding{
 }
 
 .levare-form-input{
-@apply bg-transparent border-b-[1px] border-solid border-neutral-600 w-full active:outline-none aria-selected:outline outline-none text-white
+@apply bg-transparent border-b-[1px] border-solid w-full active:outline-none aria-selected:outline outline-none text-white placeholder:text-neutral-500
 }
   
 .freebie-container{
