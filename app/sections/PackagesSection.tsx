@@ -6,7 +6,7 @@ import CTAButton from "../components-custom/CTAButton";
 const packagesData = [
   {
     packageName: "QUICK LAUNCH (1-2 Weeks)",
-    packagePrice: "1800",
+    packagePrice: "2400",
     packageBenefits: [
       "3-Page high-converting website",
       "Messaging Strategy",
