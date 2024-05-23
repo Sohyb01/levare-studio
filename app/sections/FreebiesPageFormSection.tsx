@@ -13,7 +13,7 @@ const FreebiesPageFormSection = () => {
       <div className="container flex flex-col gap-[120px]">
         {/* First row, contains text and form */}
         <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-between gap-8">
-          <p className="text-lg text-neutral-300 w-full lg:max-w-[352px]">
+          <p className="text-p text-neutral-300 w-full lg:max-w-[352px]">
             Enter your email once, receive lifetime access to all current and
             future free resources
           </p>
@@ -39,7 +39,7 @@ const FreebiesPageFormSection = () => {
               </div>
               {/* Title and paragrapgh */}
               <div className="flex flex-col gap-4">
-                <h5 className="header text-lg">Effective Website Checklist</h5>
+                <h5 className="header text-p">Effective Website Checklist</h5>
                 <p className="w-full text-sm text-neutral-800">
                   Learn the core elements needed to turn your website into a
                   client-getting machine that boosts your business and revenue.
@@ -82,7 +82,7 @@ const FreebiesPageFormSection = () => {
               </div>
               {/* Title and paragrapgh */}
               <div className="flex flex-col gap-4">
-                <h5 className="header text-lg">Website Copy Templates</h5>
+                <h5 className="header text-p">Website Copy Templates</h5>
                 <p className="w-full text-sm text-neutral-800">
                   Copywriting templates which will help you write
                   high-converting sales copy for your website pages, allowing

@@ -13,9 +13,7 @@ const FAQSection = () => {
       className="py-20 bg-neutral-800 relative packages-bg"
     >
       <div className="container flex flex-col items-center gap-8">
-        <h2 className="text-white section-header">
-          Frequently Asked Questions
-        </h2>
+        <h2 className="text-white text-h2">Frequently Asked Questions</h2>
         {/* Questions container */}
         <Accordion
           type="single"

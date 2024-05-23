@@ -9,8 +9,8 @@ import { Manrope } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import { Analytics } from "@vercel/analytics/react";
 
-const BasementGrotesque = localFont({
-  src: "./fonts/BasementGrotesque-Black.otf",
+const OrpheusPro = localFont({
+  src: "./fonts/OrpheusPro.ttf",
   variable: "--header",
   display: "swap",
 });
@@ -20,86 +20,6 @@ const manrope = Manrope({
   subsets: ["latin"],
   display: "swap",
 });
-
-// const aileron = localFont({
-//   src: [
-//     // Normal (Non-Italic)
-//     {
-//       path: "./fonts/aileron/Aileron-UltraLight.otf",
-//       weight: "200",
-//       style: "normal",
-//     },
-//     {
-//       path: "./fonts/aileron/Aileron-Thin.otf",
-//       weight: "300",
-//       style: "normal",
-//     },
-//     {
-//       path: "./fonts/aileron/Aileron-Regular.otf",
-//       weight: "400",
-//       style: "normal",
-//     },
-//     {
-//       path: "./fonts/aileron/Aileron-SemiBold.otf",
-//       weight: "600",
-//       style: "normal",
-//     },
-//     {
-//       path: "./fonts/aileron/Aileron-Bold.otf",
-//       weight: "700",
-//       style: "normal",
-//     },
-//     {
-//       path: "./fonts/aileron/Aileron-Heavy.otf",
-//       weight: "800",
-//       style: "normal",
-//     },
-//     {
-//       path: "./fonts/aileron/Aileron-Black.otf",
-//       weight: "900",
-//       style: "normal",
-//     },
-//     //
-//     // Italic
-//     //
-//     {
-//       path: "./fonts/aileron/Aileron-UltraLightItalic.otf",
-//       weight: "200",
-//       style: "italic",
-//     },
-//     {
-//       path: "./fonts/aileron/Aileron-ThinItalic.otf",
-//       weight: "300",
-//       style: "italic",
-//     },
-//     {
-//       path: "./fonts/aileron/Aileron-Italic.otf",
-//       weight: "400",
-//       style: "italic",
-//     },
-//     {
-//       path: "./fonts/aileron/Aileron-SemiBoldItalic.otf",
-//       weight: "600",
-//       style: "italic",
-//     },
-//     {
-//       path: "./fonts/aileron/Aileron-BoldItalic.otf",
-//       weight: "700",
-//       style: "italic",
-//     },
-//     {
-//       path: "./fonts/aileron/Aileron-HeavyItalic.otf",
-//       weight: "800",
-//       style: "italic",
-//     },
-//     {
-//       path: "./fonts/aileron/Aileron-BlackItalic.otf",
-//       weight: "900",
-//       style: "italic",
-//     },
-//   ],
-//   display: "swap",
-// });
 
 export const metadata: Metadata = {
   title: "Levare Studio",
@@ -113,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${manrope.className} ${BasementGrotesque.variable}`}>
+      <body className={`${manrope.className} ${OrpheusPro.variable}`}>
         {/* <SalesNavbar /> */}
         {children}
         <Analytics />

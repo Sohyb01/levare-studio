@@ -11,7 +11,7 @@ const CTAButton = ({
   return (
     <Link
       href="/contact"
-      className={`text-white bg-levare-red text-center rounded-full px-8 py-3 cursor-pointer ${classname}`}
+      className={`text-white uppercase text-cta bg-levare-red text-center w-fit px-5 py-2 cursor-pointer ${classname}`}
     >
       {buttonText ? buttonText : "Grow my Business"}
     </Link>

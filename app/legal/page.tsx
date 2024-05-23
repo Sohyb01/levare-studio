@@ -19,9 +19,7 @@ const LegalPage = () => {
                 collected, used, and shared when you visit or make a purchase
                 from levarestudio.com (the “Site”).
               </p>
-              <h3 className="header text-lg">
-                Personal Information We Collect
-              </h3>
+              <h3 className="header text-p">Personal Information We Collect</h3>
 
               <p>
                 When you visit the Site, we automatically collect certain
@@ -35,7 +33,7 @@ const LegalPage = () => {
                 “Device Information.”
               </p>
 
-              <h3 className="header text-lg">
+              <h3 className="header text-p">
                 We collect Device Information using the following technologies
               </h3>
               <p>
@@ -71,7 +69,7 @@ const LegalPage = () => {
                 Information.
               </p>
 
-              <h3 className="header text-lg">
+              <h3 className="header text-p">
                 How Do We Use Your Personal Information?
               </h3>
 
@@ -101,7 +99,7 @@ const LegalPage = () => {
                 marketing and advertising campaigns).
               </p>
 
-              <h3 className="header text-lg">
+              <h3 className="header text-p">
                 Sharing Your Personal Information
               </h3>
               <p>
@@ -145,14 +143,14 @@ const LegalPage = () => {
                 http://optout.aboutads.info/.
               </p>
 
-              <h3 className="header text-lg">Do Not Track</h3>
+              <h3 className="header text-p">Do Not Track</h3>
               <p>
                 Please note that we do not alter our Site’s data collection and
                 use practices when we see a Do Not Track signal from your
                 browser.
               </p>
 
-              <h3 className="header text-lg">Your Rights</h3>
+              <h3 className="header text-p">Your Rights</h3>
               <p>
                 If you are a European resident, you have the right to access
                 personal information we hold about you and to ask that your
@@ -171,21 +169,21 @@ const LegalPage = () => {
                 Canada and the United States.
               </p>
 
-              <h3 className="header text-lg">Data Retention</h3>
+              <h3 className="header text-p">Data Retention</h3>
               <p>
                 When you place an order through the Site, we will maintain your
                 Order Information for our records unless and until you ask us to
                 delete this information.
               </p>
 
-              <h3 className="header text-lg">Changes</h3>
+              <h3 className="header text-p">Changes</h3>
               <p>
                 We may update this privacy policy from time to time in order to
                 reflect, for example, changes to our practices or for other
                 operational, legal or regulatory reasons.
               </p>
 
-              <h3 className="header text-lg">Contact Us</h3>
+              <h3 className="header text-p">Contact Us</h3>
               <p>
                 For more information about our privacy practices, if you have
                 questions, or if you would like to make a complaint, please
@@ -195,7 +193,7 @@ const LegalPage = () => {
             {/* Terms of Service */}
             <div className="flex flex-col text-start w-full text-neutral-800 gap-8">
               <h2 className="header text-2xl">Terms of Service</h2>
-              <h2 className="header text-lg">Overview</h2>
+              <h2 className="header text-p">Overview</h2>
               <p>
                 This website is operated by Levare Studio. Throughout the site,
                 the terms “we”, “us” and “our” refer to Levare Studio. Levare
@@ -235,7 +233,7 @@ const LegalPage = () => {
                 acceptance of those changes.
               </p>
               {/*  */}
-              <h2 className="header text-lg">Section 1 - Online Store Terms</h2>
+              <h2 className="header text-p">Section 1 - Online Store Terms</h2>
               <p>
                 By agreeing to these Terms of Service, you represent that you
                 are at least the age of majority in your state or province of
@@ -258,7 +256,7 @@ const LegalPage = () => {
                 immediate termination of your Services.
               </p>
               {/*  */}
-              <h2 className="header text-lg">Section 2 - General Condition</h2>
+              <h2 className="header text-p">Section 2 - General Condition</h2>
               <p>
                 We reserve the right to refuse service to anyone for any reason
                 at any time.
@@ -283,7 +281,7 @@ const LegalPage = () => {
                 only and will not limit or otherwise affect these Terms.
               </p>
               {/*  */}
-              <h2 className="header text-lg">
+              <h2 className="header text-p">
                 Section 3 - Accuracy, Completeness and Timelessness of
                 Information
               </h2>
@@ -305,7 +303,7 @@ const LegalPage = () => {
                 responsibility to monitor changes to our site.
               </p>
               {/*  */}
-              <h2 className="header text-lg">
+              <h2 className="header text-p">
                 Section 4 - Modifications to the Services & Prices
               </h2>
               <p>
@@ -322,7 +320,7 @@ const LegalPage = () => {
                 Service.
               </p>
               {/*  */}
-              <h2 className="header text-lg">
+              <h2 className="header text-p">
                 Section 5 - Products or Services (if applicable)
               </h2>
               <p>
@@ -355,7 +353,7 @@ const LegalPage = () => {
                 be corrected.
               </p>
               {/*  */}
-              <h2 className="header text-lg">
+              <h2 className="header text-p">
                 Section 6 - Accuracy of Billing and Account Information
               </h2>
               <p>
@@ -381,7 +379,7 @@ const LegalPage = () => {
               </p>
               <p>For more detail, please review our Returns Policy.</p>
               {/*  */}
-              <h2 className="header text-lg">Section 7 - Optional Tools</h2>
+              <h2 className="header text-p">Section 7 - Optional Tools</h2>
               <p>
                 We may provide you with access to third-party tools over which
                 we neither monitor nor have any control nor input.
@@ -406,7 +404,7 @@ const LegalPage = () => {
                 subject to these Terms of Service.
               </p>
               {/*  */}
-              <h2 className="header text-lg">Section 8 - Third-Party Links</h2>
+              <h2 className="header text-p">Section 8 - Third-Party Links</h2>
               <p>
                 Certain content, products and services available via our Service
                 may include materials from third-parties.
@@ -430,7 +428,7 @@ const LegalPage = () => {
                 third-party.
               </p>
               {/*  */}
-              <h2 className="header text-lg">
+              <h2 className="header text-p">
                 Section 9 - User Comments, Feedback and Other Submissions
               </h2>
               <p>
@@ -468,7 +466,7 @@ const LegalPage = () => {
                 third-party.
               </p>
               {/*  */}
-              <h2 className="header text-lg">
+              <h2 className="header text-p">
                 Section 10 - Personal Information
               </h2>
               <p>
@@ -476,7 +474,7 @@ const LegalPage = () => {
                 governed by our Privacy Policy. To view our Privacy Policy.
               </p>
               {/*  */}
-              <h2 className="header text-lg">
+              <h2 className="header text-p">
                 Section 11 - Errors, Inaccuracies and Omissions
               </h2>
               <p>
@@ -500,7 +498,7 @@ const LegalPage = () => {
                 modified or updated.
               </p>
               {/*  */}
-              <h2 className="header text-lg">Section 12 - Prohibited Uses</h2>
+              <h2 className="header text-p">Section 12 - Prohibited Uses</h2>
               <p>
                 In addition to other prohibitions as set forth in the Terms of
                 Service, you are prohibited from using the site or its content:
@@ -526,7 +524,7 @@ const LegalPage = () => {
                 of the prohibited uses.
               </p>
               {/*  */}
-              <h2 className="header text-lg">
+              <h2 className="header text-p">
                 Section 13 - Disclaimer of Warranties; Limitation of Liability
               </h2>
               <p>
@@ -576,7 +574,7 @@ const LegalPage = () => {
                 maximum extent permitted by law.
               </p>
               {/*  */}
-              <h2 className="header text-lg">Section 14 - Indemnification</h2>
+              <h2 className="header text-p">Section 14 - Indemnification</h2>
               <p>
                 You agree to indemnify, defend and hold harmless Levare Studio
                 and our parent, subsidiaries, affiliates, partners, officers,
@@ -588,7 +586,7 @@ const LegalPage = () => {
                 or your violation of any law or the rights of a third-party.
               </p>
               {/*  */}
-              <h2 className="header text-lg">Section 15 - Severability</h2>
+              <h2 className="header text-p">Section 15 - Severability</h2>
               <p>
                 In the event that any provision of these Terms of Service is
                 determined to be unlawful, void or unenforceable, such provision
@@ -599,7 +597,7 @@ const LegalPage = () => {
                 remaining provisions.
               </p>
               {/*  */}
-              <h2 className="header text-lg">Section 16 - Termination</h2>
+              <h2 className="header text-p">Section 16 - Termination</h2>
               <p>
                 The obligations and liabilities of the parties incurred prior to
                 the termination date shall survive the termination of this
@@ -620,7 +618,7 @@ const LegalPage = () => {
                 deny you access to our Services (or any part thereof).
               </p>
               {/*  */}
-              <h2 className="header text-lg">Section 17 - Entire Agreement</h2>
+              <h2 className="header text-p">Section 17 - Entire Agreement</h2>
               <p>
                 The failure of us to exercise or enforce any right or provision
                 of these Terms of Service shall not constitute a waiver of such
@@ -640,7 +638,7 @@ const LegalPage = () => {
                 shall not be construed against the drafting party.
               </p>
               {/*  */}
-              <h2 className="header text-lg">
+              <h2 className="header text-p">
                 Section 18 - Changes to The Terms of Service
               </h2>
               <p>
@@ -657,7 +655,7 @@ const LegalPage = () => {
                 those changes.
               </p>
               {/*  */}
-              <h2 className="header text-lg">
+              <h2 className="header text-p">
                 Section 19 - Contact Information
               </h2>
               <p>

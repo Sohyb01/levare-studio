@@ -47,20 +47,20 @@ const PackagesSection = () => {
       className="py-20 bg-neutral-800 relative packages-bg"
     >
       <div className="container flex flex-col items-center gap-8">
-        <h2 className="text-white section-header">The Investment</h2>
+        <h2 className="text-white text-h2">The Investment</h2>
         {/* Packages Container */}
         <div className="flex flex-wrap gap-8 items-center justify-center lg:grid lg:grid-cols-3 max-w-screen-md lg:max-w-none">
           {packagesData.map((packageData, idx) => (
             <Package packageData={packageData} key={idx} />
           ))}
           {/* Custom Package */}
-          <div className="rounded-[32px] flex flex-col text-start p-8 bg-white gap-8 w-full max-w-[332px] lg:max-w-none">
+          <div className="rounded-[3px] flex flex-col text-start p-8 bg-white gap-8 w-full max-w-[332px] lg:max-w-none">
             {/* Name and Price */}
             <div className="flex flex-col gap-2">
               <p className="text-sm font-bold text-neutral-400 uppercase">
                 CUSTOM PACKAGE
               </p>
-              <p className="text-neutral-800 text-4xl font-bold header">
+              <p className="text-neutral-800 text-h2 font-bold header">
                 Custom
               </p>
             </div>
@@ -73,7 +73,7 @@ const PackagesSection = () => {
               details of your project
             </p>
             {/* CTA Buttons */}
-            <div className="flex flex-col gap-4 text-center mt-auto">
+            <div className="flex flex-col gap-4 text-center w-full items-center mt-auto">
               <CTAButton />
             </div>
           </div>

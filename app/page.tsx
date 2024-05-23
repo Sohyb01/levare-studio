@@ -11,7 +11,7 @@ import FAQSection from "./sections/FAQSection";
 
 export default function Home() {
   return (
-    <main>
+    <main className="overflow-hidden">
       <SalesNavbar />
       <HeroSection />
       <TestimonialSection1 />
