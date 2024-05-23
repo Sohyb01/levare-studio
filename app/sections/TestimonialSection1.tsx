@@ -8,7 +8,13 @@ const TestimonialSection1 = () => {
         {/* Testimonial Container */}
         <div className="flex gap-4 items-center w-full max-w-[448px]">
           {/* Person IMG Container */}
-          <div className="relative w-[48px] lg:w-[96px] aspect-square bg-white"></div>
+          <div className="relative w-[48px] lg:w-[96px] aspect-square bg-white">
+            <Image
+              fill
+              src="/optimized/testimonial_1.jpg"
+              alt="Happy Customer"
+            />
+          </div>
           <p className="text-p w-full text-neutral-900 text-start text-detail">
             “They have built us a stunning website which builds trust with
             visitors and makes them excited work with us!”
@@ -17,7 +23,13 @@ const TestimonialSection1 = () => {
         {/* Testimonial Container */}
         <div className="flex gap-4 items-center w-full max-w-[448px]">
           {/* Person IMG Container */}
-          <div className="relative w-[48px] lg:w-[96px] aspect-square bg-white"></div>
+          <div className="relative w-[48px] lg:w-[96px] aspect-square bg-white">
+            <Image
+              fill
+              src="/optimized/testimonial_2.jpg"
+              alt="Happy Customer"
+            />
+          </div>
           <p className="text-p w-full text-neutral-900 text-start text-detail">
             “Before working with them we felt nervous and doubtful about how
             we’re going to grow. Now we feel confident moving forward with
