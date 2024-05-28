@@ -18,3 +18,9 @@
   background-image: url(../../public/optimized/levare-studio-2.png);
   @apply bg-cover bg-center
 }
+
+/* Case Studies */
+/* PES */
+.pes-bg{
+  background-image: url("../../public/case-studies/pes-client-bg-1.png");
+}

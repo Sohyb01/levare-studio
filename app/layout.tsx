@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { Manrope } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import { Analytics } from "@vercel/analytics/react";
+import Footer from "./components-custom/Footer";
 
 const OrpheusPro = localFont({
   src: "./fonts/OrpheusPro.ttf",
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body className={`${manrope.className} ${OrpheusPro.variable}`}>
         {/* <SalesNavbar /> */}
         {children}
+        <Footer />
         <Analytics />
         <ToastContainer />
       </body>

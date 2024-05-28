@@ -12,7 +12,7 @@ const ClientShowcaseSection = () => {
         <div className="w-full flex flex-col md:flex-row gap-4 lg:gap-8 items-center lg:justify-center">
           {/* Image */}
           <Link
-            href="https://www.pes-edu.com/"
+            href="/case-studies/pes"
             target="_blank"
             className="relative w-full aspect-video grid place-items-center max-w-[686px] border-[2px] border-solid border-black"
           >
