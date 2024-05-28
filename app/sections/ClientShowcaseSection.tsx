@@ -9,13 +9,9 @@ const ClientShowcaseSection = () => {
         <h2 className="text-xl text-h2">Client Showcase</h2>
 
         {/* Text and image */}
-        <div className="w-full flex flex-col md:flex-row gap-4 lg:gap-8 items-center lg:justify-center">
+        <div className="w-full flex flex-col md:flex-row gap-4 md:gap-8 items-center md:justify-center">
           {/* Image */}
-          <Link
-            href="/case-studies/pes"
-            target="_blank"
-            className="relative w-full aspect-video grid place-items-center max-w-[686px] border-[2px] border-solid border-black"
-          >
+          <div className="relative w-full aspect-video grid place-items-center max-w-[686px] border-[2px] border-solid border-black">
             <Image
               src="/optimized/showcase-dark.png"
               fill
@@ -28,19 +24,23 @@ const ClientShowcaseSection = () => {
               height={140}
               className="z-[1]"
             />
-            <p className="absolute bottom-2 right-2 text-white font-bold text-sm">
-              To Programmer&apos;s Elite School --&gt;
-            </p>
-          </Link>
+          </div>
           {/* Text */}
-          <div className="flex flex-col text-start gap- md:max-w-[352px]">
-            <h3 className="text-h3">Services</h3>
-            <div className="text-p">
-              Brand Strategy <br />
-              Creative Direction <br />
-              Copywriting <br />
-              Website Design
-            </div>
+          <div className="flex flex-col text-center gap-4 w-fit">
+            <Link
+              href="/case-studies/pes"
+              target="_blank"
+              className="text-white uppercase text-cta bg-neutral-800 text-center w-fit px-5 py-2 cursor-pointer"
+            >
+              VIEW CASE STUDY
+            </Link>
+            <Link
+              href="https://www.pes-edu.com/"
+              target="_blank"
+              className="text-neutral-800 uppercase text-cta bg-white border-[2px] border-solid border-neutral-800 text-center px-5 py-2 cursor-pointer w-full"
+            >
+              VISIT WEBSITE
+            </Link>
           </div>
         </div>
       </div>
