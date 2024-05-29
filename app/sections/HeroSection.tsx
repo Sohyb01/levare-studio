@@ -18,7 +18,7 @@ const HeroSection = () => {
           <CTAButton buttonText="Grow my business" />
         </div>
         {/* Image container */}
-        <div className="relative aspect-[544/344] w-full max-w-[544px]">
+        <div className="relative aspect-[5376/3072] w-full max-w-[544px]">
           <Image alt="Business Owner" src="/stock/business_owner.jpg" fill />
         </div>
       </div>
