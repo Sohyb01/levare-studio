@@ -6,12 +6,12 @@ import CTAButton from "../components-custom/CTAButton";
 const packagesData = [
   {
     packageName: "QUICK LAUNCH (1-2 Weeks)",
-    packagePrice: "2400",
+    packagePrice: "2600",
     packageBenefits: [
-      "3-Page high-converting website",
-      "Messaging Strategy",
+      "Foundational Brand Design",
       "Brand Strategy",
-      "Brand Design (Logo, Colors, Typography)",
+      "Messaging Strategy",
+      "3-Page High-Converting website",
       "Essential SEO Optimizations",
     ],
     packageAbout: [
@@ -22,15 +22,15 @@ const packagesData = [
   },
   {
     packageName: "FULL SERVICE PACKAGE (3-4 Weeks)",
-    packagePrice: "5400",
+    packagePrice: "7200",
     packageBenefits: [
-      "Up to 10-Page high-converting website",
-      "Messaging Strategy",
+      "Full Brand Design",
       "Brand Strategy",
-      "Brand Design (Logo, Colors, Typography)",
-      // "Custom Brand Collateral",
+      "Messaging Strategy",
+      "Social Media Strategy",
+      "5-10 Page High-Converting website",
       "Essential SEO Optimizations",
-      "Website Blog Features",
+      // "Website Blog Features",
     ],
     packageAbout: [
       "A comprehensive experience rooted in strategy and designed to give you everything you need to set your business apart as an industry leader",
@@ -57,10 +57,10 @@ const PackagesSection = () => {
           <div className="rounded-[3px] flex flex-col text-start p-8 bg-white gap-8 w-full max-w-[332px] lg:max-w-none">
             {/* Name and Price */}
             <div className="flex flex-col gap-2">
-              <p className="text-sm font-bold text-neutral-400 uppercase">
+              <p className="font-bold text-neutral-400 uppercase text-subtle-semibold">
                 CUSTOM PACKAGE
               </p>
-              <p className="text-neutral-800 text-h2 font-bold header">
+              <p className="text-neutral-800 text-h1 font-bold header">
                 Custom
               </p>
             </div>

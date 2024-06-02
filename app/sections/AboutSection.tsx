@@ -5,16 +5,7 @@ import CTAButton from "../components-custom/CTAButton";
 const AboutSection = () => {
   return (
     <section className="relative py-20">
-      <div className="container flex flex-col lg:flex-row-reverse gap-12 lg:gap-20 items-start lg:justify-center">
-        {/* Image Container */}
-        <div className="relative w-full aspect-[592/384] border-and-shadow">
-          <Image
-            src="/stock/happy_business_onwer_2.jpg"
-            fill
-            alt="Happy Customer"
-            className="object-cover object-center"
-          />
-        </div>
+      <div className="container flex flex-col lg:flex-row gap-12 lg:gap-20 items-start lg:justify-center">
         {/* Header and Paragraph */}
         <div className="flex flex-col text-start text-neutral-800 gap-8 w-full max-w-[448px] relative">
           <h2 className="text-h2">
@@ -34,6 +25,15 @@ const AboutSection = () => {
             and increase revenue.
           </p>
           <CTAButton classname="w-fit" />
+        </div>
+        {/* Image Container */}
+        <div className="relative w-full aspect-[592/404]">
+          <Image
+            src="/graphics/monsters.svg"
+            fill
+            alt="Happy Customer"
+            className="object-cover object-center"
+          />
         </div>
       </div>
     </section>

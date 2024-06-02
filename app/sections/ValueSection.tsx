@@ -4,8 +4,8 @@ import CTAButton from "../components-custom/CTAButton";
 
 const ValueSection = () => {
   return (
-    <section className="relative py-20 overflow-hidden">
-      <div className="container flex flex-col lg:flex-row-reverse gap-10 lg:gap-20 items-start lg:items-center lg:justify-center">
+    <section className="relative py-[100px] md:pt-[140px] lg:pt-[100px] overflow-hidden">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-20 items-start lg:items-center lg:justify-center mr-auto">
         {/* Header and Paragraph */}
         <div className="flex flex-col text-start text-neutral-800 gap-8 w-full relative max-w-[448px] mx-auto md:mx-0">
           <h2 className="text-h2">
@@ -25,11 +25,11 @@ const ValueSection = () => {
         </div>
         {/* Image Container */}
         <Image
-          src="/stock/pen_design.png"
-          width={386}
-          height={544}
+          src="/graphics/graphic-2.svg"
+          width={592}
+          height={565}
           alt="Happy Customer"
-          className="object-cover object-center hidden md:block absolute lg:static left-[65vw] top-10"
+          className="object-cover object-center hidden md:block absolute lg:static left-[608px] top-[40px]"
         />
       </div>
     </section>

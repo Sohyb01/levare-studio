@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 gap-x-16 gap-y-6 text-detail">
             <Link href="/home">Home</Link>
             <Link href="/contact">Work with us</Link>
-            <Link href="/freebies">Free resources</Link>
+            <Link href="#">Gumroad</Link>
             {/* <Link href="/locations">Locations</Link>
             <Link href="/team">Our Team</Link>
             <Link href="/gallery">Gallery</Link> */}

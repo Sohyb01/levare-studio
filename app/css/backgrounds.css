@@ -1,7 +1,9 @@
 /* Hero section gradient */
 .hero-bg{
-  background-image: url(../../public/optimized/levare-studio.png);
-  @apply bg-cover bg-center
+  background-image: url(../../public/graphics/Levare-Studio.png);
+  background-position-y: calc(260px); 
+  background-attachment: local;
+  @apply bg-center bg-no-repeat bg-cover lg:bg-contain
 }
 
 .testimonial-bg-1{

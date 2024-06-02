@@ -16,10 +16,10 @@ const Package = ({
     <div className="rounded-[3px] flex flex-col text-start p-8 bg-white gap-8 w-full max-w-[332px] md:max-w-[324px] lg:max-w-none h-full z-[1]">
       {/* Name and Price */}
       <div className="flex flex-col gap-2">
-        <p className=" font-bold text-neutral-400 uppercase">
+        <p className="text-neutral-400 uppercase text-subtle-semibold">
           {packageData.packageName}
         </p>
-        <p className="text-neutral-800 text-h2 font-bold header">
+        <p className="text-neutral-800 text-h1 font-bold header">
           {packageData.packagePrice}
           <span className="pl-2 text-subtle-medium">USD</span>
         </p>
