@@ -112,7 +112,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${Geist.className} ${Onest.variable}`}>
+      <body className={`${Geist.className} ${Onest.variable} grid-bg`}>
         {/* <SalesNavbar /> */}
         {children}
         <Footer />

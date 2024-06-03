@@ -6,6 +6,11 @@
   @apply bg-center bg-no-repeat bg-cover lg:bg-contain
 }
 
+.grid-bg{
+  background-image: url(../../public/stock/grid-bg.jpg);
+  @apply bg-repeat-y bg-contain
+}
+
 .testimonial-bg-1{
   background-image: url(../../public/optimized/levare-testimonial.png);
   @apply bg-cover bg-center
