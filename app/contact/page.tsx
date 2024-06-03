@@ -15,7 +15,7 @@ const ContactPage = () => {
           </div>
           {/* Monsters SVG */}
           <svg
-            className="absolute left-[80vw] lg:left-[65 vw] bottom-0"
+            className="absolute left-[80vw] lg:left-[65vw] bottom-0"
             width="486"
             height="189"
             viewBox="0 0 486 189"
