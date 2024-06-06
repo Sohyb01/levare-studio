@@ -27,6 +27,9 @@ const Footer = () => {
             >
               Instagram
             </Link>
+            <Link href="https://www.tiktok.com/@sonny.branding" target="_blank">
+              TikTok
+            </Link>
             {/* <Link href="/locations">Locations</Link>
             <Link href="/team">Our Team</Link>
             <Link href="/gallery">Gallery</Link> */}
