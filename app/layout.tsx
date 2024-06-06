@@ -101,8 +101,8 @@ const Geist = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Levare Studio",
-  description: "Branding & Web Design",
+  title: "Levare Studio | Branding & Web Design",
+  description: "Elevate Your Brand & Increase Your Business Value",
 };
 
 export default function RootLayout({
