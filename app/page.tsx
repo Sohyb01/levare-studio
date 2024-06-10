@@ -14,7 +14,7 @@ export default function Home() {
     <main className="overflow-hidden">
       <SalesNavbar />
       <HeroSection />
-      {/* <TestimonialSection1 /> */}
+      <TestimonialSection1 />
       <ValueSection />
       <HowItWorksSection />
       <ClientShowcaseSection />

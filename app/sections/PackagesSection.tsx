@@ -6,10 +6,11 @@ import CTAButton from "../components-custom/CTAButton";
 const packagesData = [
   {
     packageName: "QUICK LAUNCH (1-2 Weeks)",
-    packagePrice: "2600",
+    packagePrice: "3470",
     packageBenefits: [
-      "Foundational Brand Design",
       "Brand Strategy",
+      "Wordmark Logo",
+      "Brand Design",
       "Messaging Strategy",
       "3-Page High-Converting website",
       "Essential SEO Optimizations",
@@ -22,14 +23,15 @@ const packagesData = [
   },
   {
     packageName: "FULL SERVICE PACKAGE (3-4 Weeks)",
-    packagePrice: "7200",
+    packagePrice: "6000",
     packageBenefits: [
-      "Full Brand Design",
       "Brand Strategy",
+      "Wordmark Logo",
+      "Brand Design",
       "Messaging Strategy",
       "Social Media Strategy",
       "5-10 Page High-Converting website",
-      "Essential SEO Optimizations",
+      "Advanced SEO Optimizations",
       // "Website Blog Features",
     ],
     packageAbout: [
