@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section className="border-solid border-t-[2px] border-neutral-200 w-full">
+    <section className="border-solid border-t-[2px] border-neutral-200 w-full bg-white">
       <div className="container flex flex-col items-start text-start section-px pt-[100px] pb-8 text-neutral-800 gap-y-20">
         {/* First Row - Logo & Links */}
         <div className="flex flex-col md:flex-row w-full justify-between items-center gap-y-8">
@@ -19,9 +19,10 @@ const Footer = () => {
           </Link>
           {/* Links */}
           <div className="grid grid-cols-1 gap-x-16 gap-y-6 text-detail">
+            <Link href="/">Home</Link>
             <Link href="/case-studies/pes">Case Study</Link>
             <Link href="/contact">Work with us</Link>
-            <Link
+            {/* <Link
               href="https://www.instagram.com/sonny.branding/"
               target="_blank"
             >
@@ -29,7 +30,7 @@ const Footer = () => {
             </Link>
             <Link href="https://www.tiktok.com/@sonny.branding" target="_blank">
               TikTok
-            </Link>
+            </Link> */}
             {/* <Link href="/locations">Locations</Link>
             <Link href="/team">Our Team</Link>
             <Link href="/gallery">Gallery</Link> */}
@@ -41,15 +42,28 @@ const Footer = () => {
           <Link href="/legal" className="text-detail">
             Legal
           </Link>
-          {/* Tiktok */}
-          <Link href="https://www.tiktok.com/@sonny_imm" target="_blank">
-            <Image
-              src="/icons/tiktok.svg"
-              height={24}
-              width={20}
-              alt="Tiktok"
-            />
-          </Link>
+          {/* Socials */}
+          <div className="flex items-center gap-4">
+            <Link
+              href="https://www.instagram.com/sonny.branding/"
+              target="_blank"
+            >
+              <Image
+                src="/icons/instagram.svg"
+                height={24}
+                width={20}
+                alt="Tiktok"
+              />
+            </Link>
+            <Link href="https://www.tiktok.com/@sonny.branding" target="_blank">
+              <Image
+                src="/icons/tiktok.svg"
+                height={24}
+                width={20}
+                alt="Tiktok"
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </section>
