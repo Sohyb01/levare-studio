@@ -7,9 +7,9 @@ const AboutSection = () => {
     <section className="relative py-20">
       <div className="container w-full flex flex-col lg:flex-row gap-12 lg:gap-20 items-center lg:justify-center">
         {/* Image Container */}
-        <div className="relative w-full max-w-[586px] aspect-[580/607]">
+        <div className="relative w-full max-w-[586px] aspect-square">
           <Image
-            src="/optimized/doctor-designs.png"
+            src="/optimized/functional-medicine-marketing.png"
             fill
             alt="Happy Customer"
             className="object-cover object-center"
