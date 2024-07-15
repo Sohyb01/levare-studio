@@ -14,6 +14,6 @@
 
 /* red shadow, black border, cartoony look */
 .border-and-shadow{
-  box-shadow: 12px 12px 0px 0px rgba(255, 0, 46, 0.5);
+  box-shadow: 12px 12px 0px 0px #87C2A2;
 @apply border-[2px] border-solid border-black 
 }

@@ -20,7 +20,7 @@ const IsThisForMeSection = () => {
                   width={20}
                   height={20}
                 />
-                <p className="text-p">Weak Engagement</p>
+                <p className="text-p">Weak engagement</p>
               </div>
               <div className="flex items-center gap-2">
                 <Image
@@ -29,7 +29,7 @@ const IsThisForMeSection = () => {
                   width={20}
                   height={20}
                 />
-                <p className="text-p">Poor, Unattractive Branding</p>
+                <p className="text-p">Poor, unattractive Branding</p>
               </div>
               <div className="flex items-center gap-2">
                 <Image
@@ -38,7 +38,7 @@ const IsThisForMeSection = () => {
                   width={20}
                   height={20}
                 />
-                <p className="text-p">Ineffective DIY Website</p>
+                <p className="text-p">People undervalue your service</p>
               </div>
               <div className="flex items-center gap-2">
                 <Image
@@ -47,10 +47,10 @@ const IsThisForMeSection = () => {
                   width={20}
                   height={20}
                 />
-                <p className="text-p">Clients Undervalue your Services</p>
+                <p className="text-p">Website that doesn’t work</p>
               </div>
             </div>
-            <svg
+            {/* <svg
               className="absolute left-[408px] -bottom-[18px]"
               width="120"
               height="156"
@@ -258,7 +258,7 @@ const IsThisForMeSection = () => {
                 d="M66.8254 57.2942C66.4131 58.2333 66.9295 59.5681 67.2182 60.4865C67.5568 61.5608 68.0801 62.8763 69.4014 62.7632C69.4944 62.755 69.5888 62.6874 69.5819 62.584C69.5152 61.5484 68.8782 60.8079 68.5423 59.8357C68.255 59.0028 68.1106 57.6334 67.2279 57.1894C67.0974 57.1246 66.892 57.1425 66.8254 57.2942Z"
                 fill="white"
               />
-            </svg>
+            </svg> */}
           </div>
           {/* Positives Container */}
           <div className="flex flex-col gap-8 p-8 bg-neutral-900 border-and-shadow w-full relative overflow-hidden">
@@ -271,7 +271,7 @@ const IsThisForMeSection = () => {
                   width={20}
                   height={20}
                 />
-                <p className="text-p">Engage your customers</p>
+                <p className="text-p">Have patients consistently</p>
               </div>
               <div className="flex items-center gap-2">
                 <Image
@@ -280,7 +280,7 @@ const IsThisForMeSection = () => {
                   width={20}
                   height={20}
                 />
-                <p className="text-p">Attract Higher Budget Leads</p>
+                <p className="text-p">Engage your audience</p>
               </div>
               <div className="flex items-center gap-2">
                 <Image
@@ -298,10 +298,10 @@ const IsThisForMeSection = () => {
                   width={20}
                   height={20}
                 />
-                <p className="text-p">Confidently Raise your Rates</p>
+                <p className="text-p">Confidently raise your rates</p>
               </div>
             </div>
-            <svg
+            {/* <svg
               className="absolute left-[408px] -bottom-[18px]"
               width="112"
               height="156"
@@ -425,7 +425,7 @@ const IsThisForMeSection = () => {
                 d="M76.4441 150.521C76.706 150.694 77.0115 150.764 77.3211 150.835C77.6648 150.913 77.9567 151.005 78.3113 150.923C78.3931 150.905 78.4067 150.813 78.3576 150.759C77.9635 150.323 77.0388 150.186 76.4714 150.337C76.376 150.361 76.3691 150.472 76.4441 150.521Z"
                 fill="white"
               />
-            </svg>
+            </svg> */}
           </div>
         </div>
       </div>

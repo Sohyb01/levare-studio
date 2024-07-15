@@ -19,7 +19,8 @@ const config = {
     extend: {
       colors: {
         // Levare colors
-        "levare-red": "#FF002E",
+        "levare-red": "#EB3556",
+        "holistic-green": "#87C2A2",
         "levare-dark-red": "#980000",
         "levare-brick-red": "#5B1E2A",
         border: "hsl(var(--border))",

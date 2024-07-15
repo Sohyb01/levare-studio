@@ -5,35 +5,35 @@ import CTAButton from "../components-custom/CTAButton";
 const AboutSection = () => {
   return (
     <section className="relative py-20">
-      <div className="container flex flex-col lg:flex-row gap-12 lg:gap-20 items-start lg:justify-center">
-        {/* Header and Paragraph */}
-        <div className="flex flex-col text-start text-neutral-800 gap-8 w-full max-w-[448px] relative">
-          <h2 className="text-h2">
-            Empowering You to Grow Your Business & Brand With Ease{" "}
-          </h2>
-          <p className="text-p">
-            We understand that growing your business and brand can feel
-            confusing and challenging.
-            <br />
-            <br />
-            Every day, we meet with people just like you who are looking to take
-            their business to the next level.
-            <br />
-            <br />
-            That&apos;s why we&apos;ve dedicated ourselves to helping you
-            achieve just that in a streamlined way, so you can confidently grow
-            and increase revenue.
-          </p>
-          <CTAButton classname="w-fit" />
-        </div>
+      <div className="container w-full flex flex-col lg:flex-row gap-12 lg:gap-20 items-center lg:justify-center">
         {/* Image Container */}
-        <div className="relative w-full aspect-[592/404]">
+        <div className="relative w-full max-w-[586px] aspect-[580/607]">
           <Image
-            src="/graphics/monsters.svg"
+            src="/optimized/doctor-designs.png"
             fill
             alt="Happy Customer"
             className="object-cover object-center"
           />
+        </div>
+        {/* Header and Paragraph */}
+        <div className="flex flex-col text-start text-neutral-800 gap-8 w-full max-w-[586px] relative">
+          <h2 className="text-h2">
+            Empowering Holistic Experts to Grow Their Practice With Ease
+          </h2>
+          <p className="text-p">
+            We understand that growing your practice and business can feel
+            confusing and challenging.
+            <br />
+            <br />
+            Every day, we meet with people just like you who are looking to take
+            their practices to the next level.
+            <br />
+            <br />
+            That’s why we’ve dedicated ourselves to helping you achieve just
+            that in a streamlined way, so you can confidently grow and help more
+            people.
+          </p>
+          <CTAButton classname="w-fit" />
         </div>
       </div>
     </section>
