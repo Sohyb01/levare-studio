@@ -35,6 +35,20 @@ export const projectsData = [
     imageUrl: pesImg,
     projectUrl: "https://pes-edu.com/",
   },
+  {
+    title: "Dalia Farah Scenography",
+    description:
+      "Portfolio website for a Scenographer & Decor Expert, Dr Dalia Farah",
+    tags: [
+      "Website design",
+      "Website development",
+      "Essential SEO",
+      "Blog",
+      "Copywriting",
+    ],
+    imageUrl: pesImg,
+    projectUrl: "https://dalia-farah.com/",
+  },
 ] as const;
 
 export const testimonialsData = [
