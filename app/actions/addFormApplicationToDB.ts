@@ -22,7 +22,6 @@ export const addFormApplicationToDB = async (data: TformSchema) => {
     Email: ${data.email} \n
     Website Url: ${data.websiteUrl ? data.websiteUrl : "-"} \n
     Their Story: ${data.storyQuestion} \n
-    Services they are interested in: ${data.servicesQuestion} \n
     Project goals: ${data.projectQuestion};
     `;
 
