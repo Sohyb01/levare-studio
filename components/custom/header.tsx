@@ -17,12 +17,12 @@ export default function Header() {
   return (
     <header className="z-[999] relative">
       <motion.div
-        className="fixed left-1/2 border border-border border-opacity-40 shadow-lg shadow-white/[0.03] backdrop-blur-[0.5rem] top-6 h-[3.25rem] w-[16rem] md:w-[32rem] rounded-full bg-neutral-900 bg-opacity-75"
+        className="fixed left-1/2 border border-border border-opacity-40 shadow-lg shadow-white/[0.03] backdrop-blur-[0.5rem] top-6 h-[3.25rem] w-[13rem] md:w-[32rem] rounded-full bg-neutral-900 bg-opacity-75"
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
 
-      <nav className="flex fixed left-1/2 -translate-x-1/2 top-[1.7rem] h-[initial] py-0">
+      <nav className="flex fixed left-1/2 -translate-x-[55%] md:-translate-x-[50%] top-[1.8rem] h-[initial] py-0">
         <ul className="hidden md:flex items-center justify-center gap-y-1 text-subtle text-muted w-[initial] flex-nowrap gap-5">
           {links.map((link) => (
             <motion.li
@@ -79,18 +79,18 @@ export default function Header() {
             </SheetTrigger>
             <SheetContent
               side={"right"}
-              className="p-8 gap-8 flex flex-col items-start md:hidden"
+              className="p-8 pt-[8rem] gap-8 flex flex-col items-start md:hidden"
             >
-              <p className="text-lead">Superadmin Dashboard</p>
               {/* All Platform Tab Links */}
-              <div className="sidebar-groups-container">
-                {/* Platform Tab Title & Links */}
-                {/* Company Tab  Title &Links */}
-                <div className="sidebar-group">
-                  <p>Company</p>
-                  {/* Links */}
-                  <div className="sidebar-links-container"></div>
-                </div>
+              {/* Links */}
+              <div className="flex flex-col gap-8 items-start text-start">
+                {links.map((link, idx) => {
+                  return (
+                    <Link key={idx} href={link.hash}>
+                      {link.name}
+                    </Link>
+                  );
+                })}
               </div>
             </SheetContent>
           </Sheet>

@@ -7,7 +7,7 @@ const ContactPage = () => {
   return (
     <main className="w-full max-w-none overflow-hidden">
       <ContactPageHeroSection />
-      <ContactPageProcessSection />
+      {/* <ContactPageProcessSection /> */}
       <ContactPageTestimonialsSection />
     </main>
   );

@@ -32,11 +32,17 @@ const Footer = () => {
               >
                 Discovery call
               </Link>
-              <Link
+              {/* <Link
                 className="text-muted hover:text-foreground w-fit"
                 href="/#process"
               >
                 Our process
+              </Link> */}
+              <Link
+                className="text-muted hover:text-foreground w-fit"
+                href="/contact"
+              >
+                Contact
               </Link>
               <Link
                 className="text-muted hover:text-foreground w-fit"

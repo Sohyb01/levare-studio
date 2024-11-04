@@ -46,8 +46,8 @@ export const projectsData = [
       "Blog",
       "Copywriting",
     ],
-    imageUrl: pesImg,
-    projectUrl: "https://dalia-farah.com/",
+    imageUrl: "/case-studies/df-scenography/cover.png",
+    projectUrl: "https://www.dalia-farah.com/",
   },
 ] as const;
 

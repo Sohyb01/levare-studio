@@ -9,24 +9,24 @@ const BadToGoodSection = () => {
         <div className="lg:max-w-[448px] flex flex-col gap-4 w-full">
           <h2 className="text-h2">We help you go from this</h2>
           {/* Cons */}
-          <div className="grid grid-cols-2 gap-4 text-p">
+          <div className="flex flex-col gap-4 text-p">
             {/* Con */}
-            <div className="px-4 py-3 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-3">
+            <div className="px-4 py-4 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-4">
               <XCircle size={16} className="stroke-destructive" />
               Weak audience engagement
             </div>
             {/* Con */}
-            <div className="px-4 py-3 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-3">
+            <div className="px-4 py-4 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-4">
               <XCircle size={16} className="stroke-destructive" />
               Poor unattractive branding
             </div>
             {/* Con */}
-            <div className="px-4 py-3 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-3">
+            <div className="px-4 py-4 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-4">
               <XCircle size={16} className="stroke-destructive" />
               Clients undervalue your services
             </div>
             {/* Con */}
-            <div className="px-4 py-3 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-3">
+            <div className="px-4 py-4 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-4">
               <XCircle size={16} className="stroke-destructive" />
               Website doesn’t make you money
             </div>
@@ -36,24 +36,24 @@ const BadToGoodSection = () => {
         <div className="lg:max-w-[448px] flex flex-col gap-4 w-full">
           <h2 className="text-h2">to this</h2>
           {/* Pros */}
-          <div className="grid grid-cols-2 gap-4 text-p">
+          <div className="flex flex-col gap-4 text-p">
             {/* Pro */}
-            <div className="px-4 py-3 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-3">
+            <div className="px-4 py-4 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-4">
               <CheckCircle size={16} className="stroke-primary" />
               Engaging your audience
             </div>
             {/* Pro */}
-            <div className="px-4 py-3 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-3">
+            <div className="px-4 py-4 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-4">
               <CheckCircle size={16} className="stroke-primary" />
               Attract higher-budget leads
             </div>
             {/* Pro */}
-            <div className="px-4 py-3 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-3">
+            <div className="px-4 py-4 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-4">
               <CheckCircle size={16} className="stroke-primary" />
               Competitive market position
             </div>
             {/* Pro */}
-            <div className="px-4 py-3 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-3">
+            <div className="px-4 py-4 rounded-[0.5rem] border-border border-[1px] bg-card flex items-center gap-4">
               <CheckCircle size={16} className="stroke-primary" />
               Confidently grow your business
             </div>

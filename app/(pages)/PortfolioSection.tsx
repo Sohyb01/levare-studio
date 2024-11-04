@@ -47,6 +47,7 @@ const PortfolioSection = () => {
                     className={`${buttonVariants({
                       variant: "secondary",
                     })} gap-2 items-center mt-auto w-fit`}
+                    target="_blank"
                   >
                     See project
                     <ArrowUpRight size={16} className="mb-1" />
