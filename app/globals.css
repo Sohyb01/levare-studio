@@ -26,7 +26,7 @@ html {
     --card-foreground: 0 0% 98%; /* Neutral 50 */
     --popover: 0 0% 15%;
     --popover-foreground: 0 0% 98%; /* Neutral 50 */
-    --primary: 	75 100% 75%;
+    --primary: 75 100% 75%;
     --primary-foreground: 0 0% 9%; /* Neutral 900 */
     --secondary: 0 0% 15%;
     --secondary-foreground: 0 0% 98%; /* Neutral 50 */
@@ -43,10 +43,9 @@ html {
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
-    --whatsapp-green: #25D366;
+    --whatsapp-green: #25d366;
   }
 }
-
 
 @layer base {
   * {
@@ -55,16 +54,38 @@ html {
   body {
     @apply bg-background text-foreground;
   }
+  /* Entire scrollbar */
+  ::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 4px;
+  }
+
+  /* Track (the background of the scrollbar) */
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--background)); /* Color of the scrollbar track */
+  }
+
+  /* Handle (the draggable part of the scrollbar) */
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--foreground)); /* Color of the handle */
+  }
 }
 
 /* default section padding */
-.section-px{
-  @apply px-4 md:px-8 lg:px-20
+.section-px {
+  @apply px-4 md:px-8 lg:px-20;
 }
-.levare-input-and-label-container{
-@apply flex flex-col items-start text-start gap-3 w-full text-foreground
+.levare-input-and-label-container {
+  @apply flex flex-col items-start text-start gap-3 w-full text-foreground;
 }
 
-.levare-form-input{
-@apply bg-transparent border-b-[1px] border-b-border border-solid w-full active:outline-none aria-selected:outline outline-none text-foreground placeholder:text-muted
+.levare-form-input {
+  @apply bg-transparent border-b-[1px] border-b-border border-solid w-full active:outline-none aria-selected:outline outline-none text-foreground placeholder:text-muted;
+}
+
+/* Backgrounds */
+.gradient-bg {
+  background-image: url("../public/backgrounds/gradient-5.png");
+  background-attachment: fixed;
+  @apply bg-repeat;
 }

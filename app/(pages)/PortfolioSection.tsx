@@ -46,7 +46,7 @@ const PortfolioSection = () => {
                     href={project.projectUrl}
                     className={`${buttonVariants({
                       variant: "secondary",
-                    })} gap-2 items-center mt-auto w-fit`}
+                    })} gap-2 items-center mt-auto w-fit animate-pulse hover:animate-none`}
                     target="_blank"
                   >
                     See project

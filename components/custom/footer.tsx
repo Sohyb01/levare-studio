@@ -5,7 +5,7 @@ import { buttonVariants } from "../ui/button";
 
 const Footer = () => {
   return (
-    <section className="border-solid border-t-[1px] border-border w-full">
+    <section className="border-solid border-t-[1px] border-border w-full bg-background/80">
       <div className="px-4 md:px-8 lg:px-20 flex flex-col items-start text-start section-px pt-[100px] pb-8 text-foreground gap-y-[4rem]">
         {/* First Row - Logo & Links */}
         <div className="flex flex-col md:flex-row w-full justify-between items-start md:items-center gap-y-8">

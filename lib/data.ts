@@ -38,7 +38,7 @@ export const projectsData = [
   {
     title: "Dalia Farah Scenography",
     description:
-      "Portfolio website for a Scenographer & Decor Expert, Dr Dalia Farah",
+      "Portfolio website to display the work of Scenographer & Fine Arts Professor, Dr Dalia Farah",
     tags: [
       "Website design",
       "Website development",

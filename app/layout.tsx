@@ -34,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${oldSchoolGrotesk.className} antialiased`}>
+      <body className={`${oldSchoolGrotesk.className} antialiased gradient-bg`}>
         <ActiveSectionContextProvider>
           <Header />
           {children}

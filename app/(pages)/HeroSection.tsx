@@ -6,7 +6,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="container flex flex-col lg:flex-row justify-between items-start text-start section-px pt-[140px] pb-[80px] text-foreground">
+      <div className="container flex flex-col lg:flex-row justify-between items-start text-start section-px pt-[160px] pb-[80px] text-foreground">
         {/* Text Content */}
         <div className="relative flex flex-col lg:flex-row items-start lg:items-end text-start gap-6 w-full">
           {/* Title */}
@@ -40,7 +40,7 @@ const HeroSection = () => {
               </div>
             </div>
             {/* Graphic */}
-            <div className="hidden md:block relative aspect-[64/59.19] h-[146px] lg:h-[59.19px]">
+            <div className="hidden md:block relative aspect-[64/59.19] h-[146px] lg:h-[59.19px] animate-bounce">
               <Image
                 fill
                 src="/shape-1.svg"
