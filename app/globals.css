@@ -89,3 +89,10 @@ html {
   background-attachment: fixed;
   @apply bg-repeat;
 }
+
+.nav{
+ @apply w-full flex justify-center z-50 mx-auto text-foreground py-6 absolute top-0
+}
+.nav-internal{
+ @apply w-full flex justify-between items-center px-4 md:px-8
+}

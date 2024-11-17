@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from "@/components/custom/header";
 import ActiveSectionContextProvider from "@/context/active-section-context";
-import Footer from "@/components/custom/footer";
+import Header from "@/components/custom/Header";
+import Footer from "@/components/custom/Footer";
 
 const oldSchoolGrotesk = localFont({
   src: [
@@ -36,6 +36,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${oldSchoolGrotesk.className} antialiased gradient-bg`}>
         <ActiveSectionContextProvider>
+          {/* Animated header */}
+          {/* <MotionHeader/> */}
           <Header />
           {children}
           <Footer />

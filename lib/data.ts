@@ -6,8 +6,8 @@ export const links = [
     hash: "/#home",
   },
   {
-    name: "About",
-    hash: "/#about",
+    name: "How it works",
+    hash: "/#process",
   },
   {
     name: "Portfolio",

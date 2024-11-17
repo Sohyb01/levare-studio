@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <main className="w-full max-w-none overflow-hidden">
       <HeroSection />
+      <ProcessSection />
       <PortfolioSection />
       <TestimonialsSection />
-      {/* <ProcessSection /> */}
       <BadToGoodSection />
     </main>
   );

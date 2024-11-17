@@ -4,26 +4,15 @@ import React from "react";
 
 const ProcessSection = () => {
   return (
-    <section id="process" className="border-border border-t-[1px]">
-      <div className="container flex flex-col-reverse lg:flex-row lg:items-center gap-8 lg:gap-20 section-px py-20 text-foreground">
-        <div className="lg:max-w-[448px]">
-          <h2 className="text-h2 text-start text-foreground">
-            See how it works
-          </h2>
-          <p className="text-p py-4">
-            This 2 min video will explain the complete process when you decide
-            to work with us. We value clarity and want to help you make the best
-            decision for yourself.
-          </p>
-          <Link
-            href={"/contact"}
-            className={`${buttonVariants({ variant: "default" })}`}
-          >
-            Start a project
-          </Link>
-        </div>
+    <section id="process">
+      <div className="container flex flex-col items-center gap-8 section-px py-20 text-foreground">
+        <h2 className="text-h2 text-center text-foreground">
+          <span className="text-muted">Our process</span>
+          <br />
+          See how it works
+        </h2>
         {/* Video goes here later */}
-        <div className="rounded-[1rem] border-border border-[1px] w-full lg:max-w-[592px] aspect-video"></div>
+        <div className="rounded-[1rem] border-border border-[1px] w-full aspect-video bg-background"></div>
       </div>
     </section>
   );

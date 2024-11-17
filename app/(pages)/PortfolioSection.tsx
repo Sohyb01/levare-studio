@@ -7,7 +7,7 @@ import React from "react";
 
 const PortfolioSection = () => {
   return (
-    <section id="portfolio" className="border-border border-t-[1px]">
+    <section id="portfolio" className="">
       <div className="container flex flex-col text-start section-px py-20 text-foreground">
         <h2 className="text-h2">
           <span className="text-muted">Portfolio</span>

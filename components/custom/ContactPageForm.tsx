@@ -159,9 +159,9 @@ const ContactPageForm = () => {
 
       <Button
         disabled={isSubmitting}
-        variant={"default"}
+        variant="default"
         type="submit"
-        className="w-fit"
+        className="w-fit text-primary-foreground"
       >
         Submit
       </Button>

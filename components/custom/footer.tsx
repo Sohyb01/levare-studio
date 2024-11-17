@@ -8,7 +8,7 @@ const Footer = () => {
     <section className="border-solid border-t-[1px] border-border w-full bg-background/80">
       <div className="px-4 md:px-8 lg:px-20 flex flex-col items-start text-start section-px pt-[100px] pb-8 text-foreground gap-y-[4rem]">
         {/* First Row - Logo & Links */}
-        <div className="flex flex-col md:flex-row w-full justify-between items-start md:items-center gap-y-8">
+        <div className="flex flex-wrap w-full justify-between items-start md:items-center gap-y-8">
           {/* Footer CTA */}
           <div>
             <h3 className="text-h3 max-w-[280px] pb-4">
@@ -22,7 +22,7 @@ const Footer = () => {
             </Link>
           </div>
           {/* Links */}
-          <div className="grid grid-cols-1 gap-x-16 gap-y-2 text-detail min-w-[7.5rem]">
+          <div className="grid grid-cols-1 gap-x-16 gap-y-2 text-subtle min-w-[7.5rem]">
             Explore
             <div className="flex flex-col gap-1">
               {/* Col 1 */}
@@ -54,9 +54,9 @@ const Footer = () => {
           </div>
         </div>
         {/* Second Row - Legal & Socials */}
-        <div className="flex flex-col md:flex-row w-full justify-between items-start md:items-center gap-y-4">
+        <div className="flex flex-wrap w-full justify-between items-start md:items-center gap-y-4">
           {/* Other Links */}
-          <div className="flex flex-wrap gap-3 text-detail">
+          <div className="flex flex-wrap gap-3 text-subtle">
             <Link className="text-muted hover:text-foreground" href="/">
               Levare studio
             </Link>
