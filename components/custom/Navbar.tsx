@@ -6,7 +6,7 @@ import { AlignJustify } from "lucide-react";
 import { links } from "@/lib/data";
 import Image from "next/image";
 
-const Header = () => {
+export const Navbar = () => {
   return (
     <nav className="nav">
       <div className="nav-internal">
@@ -54,5 +54,3 @@ const Header = () => {
     </nav>
   );
 };
-
-export default Header;

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import ActiveSectionContextProvider from "@/context/active-section-context";
-import Header from "@/components/custom/Header";
-import Footer from "@/components/custom/Footer";
+import { Navbar } from "@/components/custom/Navbar";
+import { Footer } from "@/components/custom/Footer";
 
 const oldSchoolGrotesk = localFont({
   src: [
@@ -38,7 +38,7 @@ export default function RootLayout({
         <ActiveSectionContextProvider>
           {/* Animated header */}
           {/* <MotionHeader/> */}
-          <Header />
+          <Navbar />
           {children}
           <Footer />
         </ActiveSectionContextProvider>
