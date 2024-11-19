@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import { Navbar } from "@/components/custom/Navbar";
-import { Footer } from "@/components/custom/Footer";
+import { LevareFooter } from "@/components/custom/LevareFooter";
 
 const oldSchoolGrotesk = localFont({
   src: [
@@ -40,7 +40,7 @@ export default function RootLayout({
           {/* <MotionHeader/> */}
           <Navbar />
           {children}
-          <Footer />
+          <LevareFooter />
         </ActiveSectionContextProvider>
       </body>
     </html>
