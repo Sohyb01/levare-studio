@@ -15,7 +15,7 @@ const ProcessSection = () => {
         <div className="rounded-[1rem] border-border border-[1px] w-full aspect-video overflow-hidden">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/cnaE8Blrqfs?si=QgIp4VgNiE6KJQH5"
+            src="https://www.youtube.com/embed/aJLWf_0f3Fw?si=Zrv1h1mSVm7nkGxi"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
