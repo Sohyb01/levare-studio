@@ -25,30 +25,20 @@ export const LevareFooter = () => {
           <div className="grid grid-cols-1 gap-x-16 gap-y-2 text-subtle min-w-[7.5rem]">
             Explore
             <div className="flex flex-col gap-1">
-              {/* Col 1 */}
-              <Link
-                className="text-muted hover:text-foreground w-fit"
-                href="/contact"
-              >
-                Discovery call
+              <Link className="text-muted hover:text-foreground w-fit" href="/">
+                Home
               </Link>
-              {/* <Link
+              <Link
                 className="text-muted hover:text-foreground w-fit"
                 href="/#process"
               >
                 Our process
-              </Link> */}
+              </Link>
               <Link
                 className="text-muted hover:text-foreground w-fit"
                 href="/contact"
               >
                 Contact
-              </Link>
-              <Link
-                className="text-muted hover:text-foreground w-fit"
-                href="/about"
-              >
-                About
               </Link>
             </div>
           </div>
