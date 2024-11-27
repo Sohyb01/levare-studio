@@ -13,10 +13,10 @@ export const links = [
     name: "Portfolio",
     hash: "/#portfolio",
   },
-  {
-    name: "Services",
-    hash: "/#services",
-  },
+  // {
+  //   name: "Services",
+  //   hash: "/#services",
+  // },
 ] as const;
 
 export const projectsData = [
